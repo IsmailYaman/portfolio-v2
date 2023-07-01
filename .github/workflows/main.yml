@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Deploy to Vimexx
-      uses: SamKirkland/FTP-Deploy-Action@4.3.4
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: web0107.zxcs.nl
         username: u54933p52213
