@@ -19,8 +19,9 @@ jobs:
         server: web0107.zxcs.nl
         username: u54933p52213
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /path/to/your/website
+        server-dir: /domains/ismailkayadelen.com/public_html
         exclude: |
           **/.git*
           **/.git*/**
           **/node_modules/**
+        dry-run: true
