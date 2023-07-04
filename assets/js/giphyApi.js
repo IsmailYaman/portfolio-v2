@@ -1,2 +1,0 @@
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=fHofQKckNLsorvM7n2XBgLZfI7C9YmoR&limit=5");
-xhr.done(function(data) { console.log("ladies and gentlemen, we've gotem", data); });
