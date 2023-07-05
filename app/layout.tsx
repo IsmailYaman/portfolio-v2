@@ -1,5 +1,5 @@
 import Footer from "./components/footser";
-import Header from "./components/header";
+import Header from "./components/header/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 //see how fonts are imported from google fonts
