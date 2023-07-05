@@ -7,7 +7,6 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ mode }) => {
     return (
         <svg
-        // className="md:m"
             height={50}
             fill={mode}
             id="Layer_1"

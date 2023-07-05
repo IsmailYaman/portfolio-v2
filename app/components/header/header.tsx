@@ -14,7 +14,7 @@ const Header = () => {
                         <Logo mode="white" />
                     </a>
                 </div>
-                <div className="flex-none md:block hidden">
+                <div className="flex-none sm:block hidden">
                     <ul className="menu menu-horizontal px-1">
                         {pages.map((page, index) => (
                             <li key={index}>
@@ -23,7 +23,7 @@ const Header = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="navbar-end md:hidden">
+                <div className="navbar-end sm:hidden">
                     <DropDownMenu />
                 </div>
             </div>
