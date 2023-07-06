@@ -6,7 +6,7 @@ import DropDownMenu from "./dropdownMenu";
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-gradient-to-r from-primary via-indigo-900  to-secondary">
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="cursor-pointer" href="/">
