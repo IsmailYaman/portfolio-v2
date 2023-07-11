@@ -6,13 +6,13 @@ export const pages = [
     },
     {
         id: 2,
-        label: "Experience",
-        link: "/experience",
+        label: "Portfolio",
+        link: "/portfolio",
     },
     {
         id: 3,
-        label: "Projects",
-        link: "/projects",
+        label: "Experience",
+        link: "/experience",
     },
     {
         id: 4,
