@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer
-            className="footer footer-center fixed inset-x-0 bottom-0 p-10 text-base-content bg-transparent"
+            className="footer footer-center p-10 text-base-content bg-transparent"
         >
             <p>Connect with me!</p>
             <div>

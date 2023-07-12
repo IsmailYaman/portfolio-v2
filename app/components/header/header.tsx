@@ -1,12 +1,32 @@
 "use client";
-import React from "react";
-import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import Logo from "../logo";
 import DropDownMenu from "./dropdownMenu";
 
 const Header = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <div className="navbar bg-base-100">
+        <div
+            className={`navbar ${
+                isScrolled ? "bg-base-100/30 ease-in-out duration-300" : "bg-transparent ease-in-out duration-300"
+            } fixed`}
+        >
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="cursor-pointer" href="/">
