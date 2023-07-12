@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import { Quicksand } from "next/font/google";
-import { pages } from "./data/data"; // Import the pages data from your file
 import "./globals.css";
 
 const font = Quicksand({ subsets: ["latin"] });
@@ -16,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body className={font.className}>
-                <Header pages={pages} /> {/* Pass the 'pages' data as a prop */}
+                <Header/>
                 {children}
                 <Footer />
             </body>

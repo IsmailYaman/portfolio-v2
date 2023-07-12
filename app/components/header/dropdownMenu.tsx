@@ -1,11 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-interface DropDownMenuProps {
-    pages: { id: number; label: string; link: string }[];
-}
-
-const DropDownMenu: React.FC<DropDownMenuProps> = ({ pages }) => {
+const DropDownMenu = () => {
     return (
         <div className="dropdown dropdown-end float-right">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -28,13 +24,18 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ pages }) => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-                {pages.map((page) => (
-                    <li key={page.id}>
-                        <Link aria-label={page.label} href={page.link} passHref>
-                            {page.label}
-                        </Link>
-                    </li>
-                ))}
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Experience</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
         </div>
     );

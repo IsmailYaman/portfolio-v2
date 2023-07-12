@@ -4,11 +4,7 @@ import Link from "next/link";
 import Logo from "../logo";
 import DropDownMenu from "./dropdownMenu";
 
-interface HeaderProps {
-    pages: { id: number; label: string; link: string }[]; // Define the prop type for 'pages'
-}
-
-const Header: React.FC<HeaderProps> = ({ pages }) => {
+const Header = () => {
     return (
         <div className="navbar bg-base-100">
             <div className="container mx-auto">
@@ -19,21 +15,22 @@ const Header: React.FC<HeaderProps> = ({ pages }) => {
                 </div>
                 <div className="flex-none sm:block hidden">
                     <ul className="menu menu-horizontal px-1">
-                        {pages.map((page) => (
-                            <li key={page.id}>
-                                <Link
-                                    aria-label={page.label}
-                                    href={page.link}
-                                    passHref
-                                >
-                                    {page.label}
-                                </Link>
-                            </li>
-                        ))}
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-end sm:hidden">
-                    <DropDownMenu pages={pages} />
+                    <DropDownMenu />
                 </div>
             </div>
         </div>

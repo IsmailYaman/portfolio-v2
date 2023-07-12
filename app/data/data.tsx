@@ -1,25 +1,25 @@
-export const pages = [
-    {
-        id: 1,
-        label: "About Me",
-        link: "/about",
-    },
-    {
-        id: 2,
-        label: "Portfolio",
-        link: "/portfolio",
-    },
-    {
-        id: 3,
-        label: "Experience",
-        link: "/experience",
-    },
-    {
-        id: 4,
-        label: "Contact",
-        link: "/contact",
-    },
-];
+// export const pages = [
+//     {
+//         id: 1,
+//         label: "About Me",
+//         link: "/about",
+//     },
+//     {
+//         id: 2,
+//         label: "Portfolio",
+//         link: "/portfolio",
+//     },
+//     {
+//         id: 3,
+//         label: "Experience",
+//         link: "/experience",
+//     },
+//     {
+//         id: 4,
+//         label: "Contact",
+//         link: "/contact",
+//     },
+// ];
 
 export const about = {
     title: "Hello! I'm Ismail Kayadelen",
