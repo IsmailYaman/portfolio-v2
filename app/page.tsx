@@ -1,10 +1,12 @@
-import React from 'react'
-import RandomCatImage from './components/randomCatImage'
+import React from "react";
+import RandomCatImage from "./components/randomCatImage";
 
 const Home = () => {
-  return (
-    <><div>Home</div></>
-  )
-}
+    return (
+        <div className="bg-[url('/img/purple.png')] h-screen bg-center ">
+          content
+        </div>
+    );
+};
 
-export default Home
+export default Home;

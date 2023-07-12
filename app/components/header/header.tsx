@@ -10,11 +10,8 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ pages }) => {
-    console.log(pages);
-
-    // Use the prop 'pages' in the component
     return (
-        <div className="navbar bg-gradient-to-r from-primary via-indigo-900  to-secondary">
+        <div className="navbar bg-transparent">
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="cursor-pointer" href="/">

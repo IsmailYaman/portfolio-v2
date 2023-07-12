@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import "./globals.css";
 import { Quicksand } from "next/font/google";
 import { pages } from "./data/data"; // Import the pages data from your file
+import "./globals.css";
 
 const font = Quicksand({ subsets: ["latin"] });
 

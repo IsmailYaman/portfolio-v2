@@ -13,7 +13,11 @@ module.exports = {
             display: ["Oswald"],
             body: ['"Open Sans"'],
         },
-        extend: {},
+        extend: {
+            backgroundImage: {
+                'purple-bg': "url('/public/img/purple.png')",
+              }
+        },
     },
     daisyui: {
         themes: [

@@ -1,11 +1,11 @@
 import React from "react";
-import github from "public/github.svg";
+import github from "public/icons/github.svg";
 import Image from "next/image";
 
 const Footer = () => {
     return (
         <footer
-            className="footer footer-center fixed inset-x-0 bottom-0 p-10 text-base-content bg-gradient-to-l from-primary via-indigo-900  to-secondary"
+            className="footer footer-center fixed inset-x-0 bottom-0 p-10 text-base-content bg-transparent"
         >
             <p>Connect with me!</p>
             <div>
