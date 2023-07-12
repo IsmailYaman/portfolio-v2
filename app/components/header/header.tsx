@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "../logo";
-
 import DropDownMenu from "./dropdownMenu";
 
 interface HeaderProps {
@@ -11,7 +10,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ pages }) => {
     return (
-        <div className="navbar bg-transparent">
+        <div className="navbar bg-base-100">
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="cursor-pointer" href="/">

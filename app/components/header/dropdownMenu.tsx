@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 interface DropDownMenuProps {
-    pages: { id: number; label: string; link: string }[]; // Define the prop type for 'pages'
+    pages: { id: number; label: string; link: string }[];
 }
 
 const DropDownMenu: React.FC<DropDownMenuProps> = ({ pages }) => {

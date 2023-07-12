@@ -6,17 +6,10 @@ module.exports = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        fontFamily: {
-            sans: ["ui-sans-serif", "system-ui"],
-            serif: ["ui-serif", "Georgia"],
-            mono: ["ui-monospace", "SFMono-Regular"],
-            display: ["Oswald"],
-            body: ['"Open Sans"'],
-        },
         extend: {
             backgroundImage: {
-                'purple-bg': "url('/public/img/purple.png')",
-              }
+                "purple-bg": "url('/public/img/purple.png')",
+            },
         },
     },
     daisyui: {
