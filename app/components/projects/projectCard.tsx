@@ -6,6 +6,7 @@ interface ProjectCardProps {
     project: {
         image: string;
         title: string;
+        tools: { label: string }[];
         description: { body1: string }[];
         links: { url: string; label: string }[];
     };
@@ -13,30 +14,37 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
-        <div className="card bg-light shadow-xl p-4 h-full flex flex-col justify-between">
+        <div className="card bg-gradient-to-tr from-[#100C28]  to-primary shadow-xl ease-out duration-100 hover:shadow-xl  hover:shadow-primary h-full flex flex-col justify-between">
             <div>
-                <Image
-                    src={project.image}
-                    alt={project.title}
-                    width={500}
-                    height={500}
-                />
-                <h2 className="card-title mt-2">{project.title}</h2>
-                {project.description.map((desc, index) => (
-                    <p key={index} className="mt-2">
-                        {desc.body1}
-                    </p>
-                ))}
-            </div>
-            <div className="flex justify-between mt-4">
-                <div className="card-actions">
-                    <button className="btn btn-primary">
-                        {project.links.map((link, index) => (
-                            <a key={index} href={link.url} className="mr-2">
-                                {link.label}
-                            </a>
-                        ))}
-                    </button>
+                <figure>
+                    <Image
+                        src={project.image}
+                        alt={project.title}
+                        width={500}
+                        height={500}
+                        className="rounded-t-2xl"
+                    />
+                </figure>
+                <h2 className="card-title pt-4 px-4 text-white">{project.title}</h2>
+            </div> 
+            <div className="flex justify-between p-4 mt-4">
+                <div className="card-actions justify-start">
+                    {project.tools.map((tool) => (
+                        <div key={tool.label} className="badge badge-primary text-white">
+                            {tool.label}
+                        </div>
+                    ))}
+                </div>
+                <div className="card-actions justify-end">
+                    {project.links.map((link, index) => (
+                        <a
+                            className="btn btn-primary text-white"
+                            key={index}
+                            href={link.url}
+                        >
+                            {link.label}
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>

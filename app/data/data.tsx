@@ -227,7 +227,7 @@ export const projects = [
                 body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
@@ -255,42 +255,6 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Shell Shock",
-        description: [
-            {
-                body1: "A 2D mobile game that we made in 6 weeks at the game development minor. Shell Shock is a simple 2D platformer where you need to defeat your enemies.",
-            },
-            {
-                body2: "As the artist in the team, I've worked on the graphics of the game. Most of the sprites and animations are made by me. This was my first experience of making 2D pixel-art.",
-
-            }
-        ],
-        image: "https://picsum.photos/id/48/200",
-        links: [
-            {
-                label: "Check on Play Store",
-                url: "https://play.google.com/store/apps/details?id=com.SingletonStudio.ShellShock",
-            },
-        ],
-        tools: [
-            {
-                label: "Unity",
-                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
-            },
-            {
-                label: "Aseprite",
-                image: "https://img.icons8.com/color/48/000000/aseprite.png",
-            },
-            {
-                label: "Adobe Photoshop",
-                image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
-            },
-        ],
-
-                
-    },
-    {
-        id: 3,
         title: "Waar Bekken Ik?",
         description: [
             {
@@ -300,7 +264,7 @@ export const projects = [
                 body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Read more",
@@ -323,14 +287,14 @@ export const projects = [
         ],
     },
     {
-        id: 4,
+        id: 3,
         title: "Akropolis",
         description: [
             {
                 body1:"This was a schoolproject where I had to find my own client to make a website for. At the time I worked at a Greek restaurant and the owner needed a new website. Now I could combine my school with work and learn new things in the process."
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
@@ -353,14 +317,14 @@ export const projects = [
         ],
     },
     {
-        id: 5,
+        id: 4,
         title: "Unreal Engine 4 Shooter",
         description: [
             {
                 body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "View demo ",
@@ -375,14 +339,14 @@ export const projects = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         title: "School blog",
         description: [
             {
                 body1: "The first asignment when I started at CMGT was to make a personal blog in which I could document all the tasks I've done.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Visit blog",
@@ -397,14 +361,14 @@ export const projects = [
         ],
     },
     {
-        id: 7,
+        id: 6,
         title: "SSI Rotterdam",
         description: [
             {
                 body1: "SSI (Seksuele straatintimidatie) Rotterdam was a project for the municipality of Rotterdam aimed at raising awareness about sexual street harassment in busy areas of the city. It involved a VR experience that put users in the shoes of victims of street harassment. The goal was to foster empathy and initiate a dialogue about this issue, ultimately leading to increased awareness and positive change in society.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Read more",
@@ -419,14 +383,14 @@ export const projects = [
         ],
     },
     {
-        id: 8,
+        id: 7,
         title: "SkeeballVK",
         description: [
             {
                 body1: "This was a schoolproject where I had to make a landingpage for a product that we had designed. The website was targeted towards parents that wanted an educational toy for their young kids. Hence the playful looks of the website.",
             },
         ],
-        image: "https://picsum.photos/id/48/200",
+        image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
