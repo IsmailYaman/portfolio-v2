@@ -1,7 +1,17 @@
 import React from "react";
 import Image from "next/image";
 
-const ProjectCard = ({ project }) => {
+// Define the type/interface for the props
+interface ProjectCardProps {
+    project: {
+        image: string;
+        title: string;
+        description: { body1: string }[];
+        links: { url: string; label: string }[];
+    };
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
         <div className="card bg-light shadow-xl p-4 h-full flex flex-col justify-between">
             <div>
