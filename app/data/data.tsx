@@ -227,16 +227,12 @@ export const projects = [
                 body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Visit website",
                 url: "https://project.cmi.hr.nl/2021_2022/game_greenhouse/",
-            },
-            {
-                label: "View on Steam",
-                url: "https://store.steampowered.com/app/1809760/Achromira/",
-            },
+            }
         ],
         tools: [
             {
@@ -269,7 +265,7 @@ export const projects = [
 
             }
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Check on Play Store",
@@ -304,7 +300,7 @@ export const projects = [
                 body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Read more",
@@ -334,7 +330,7 @@ export const projects = [
                 body1:"This was a schoolproject where I had to find my own client to make a website for. At the time I worked at a Greek restaurant and the owner needed a new website. Now I could combine my school with work and learn new things in the process."
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Visit website",
@@ -364,10 +360,10 @@ export const projects = [
                 body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
-                label: "View demo on YouTube",
+                label: "View demo ",
                 url: "https://www.youtube.com/playlist?list=PLlibq_pnekYPDebVB2VMDJfsEDNbRWXOF",
             },
         ],
@@ -386,7 +382,7 @@ export const projects = [
                 body1: "The first asignment when I started at CMGT was to make a personal blog in which I could document all the tasks I've done.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Visit blog",
@@ -408,7 +404,7 @@ export const projects = [
                 body1: "SSI (Seksuele straatintimidatie) Rotterdam was a project for the municipality of Rotterdam aimed at raising awareness about sexual street harassment in busy areas of the city. It involved a VR experience that put users in the shoes of victims of street harassment. The goal was to foster empathy and initiate a dialogue about this issue, ultimately leading to increased awareness and positive change in society.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Read more",
@@ -430,7 +426,7 @@ export const projects = [
                 body1: "This was a schoolproject where I had to make a landingpage for a product that we had designed. The website was targeted towards parents that wanted an educational toy for their young kids. Hence the playful looks of the website.",
             },
         ],
-        image: "https://i.imgur.com/5QZ3Z9M.png",
+        image: "https://picsum.photos/id/48/200",
         links: [
             {
                 label: "Visit website",
@@ -452,10 +448,4 @@ export const projects = [
             },
         ],
     },
-    
-
-
-
-
-
 ]
