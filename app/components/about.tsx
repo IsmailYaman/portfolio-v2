@@ -1,5 +1,6 @@
 import React from "react";
 import { about } from "../data/data";
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -9,10 +10,12 @@ const About = () => {
                 <div className="grid grid-flow-col grid-rows-3 gap-4">
                     <div className="row-span-4 w-64">
                         {/* <Image src="/img/ismail.jpg" width={500} height={500} alt="ismail" /> */}
-                        <img
+                        <Image
                             src={about.photo}
                             alt="ismail"
                             className="rounded-full"
+                            width={500}
+                            height={500}
                         />
                     </div>
                     <div>

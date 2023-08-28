@@ -22,7 +22,7 @@
 // ];
 
 export const about = {
-    photo: "img/ismail.jpg",
+    photo: "/img/ismail.jpg",
     title: "Hello! I'm Ismail Kayadelen",
     body1: "Currently in my final year of my studies in Creative Media & Game Technologies at the Rotterdam University of Applied Sciences in the Netherlands. With my skills in frontend/backend development, game development, and design, I am capable of creating engaging digital experiences that surpass expectations.",
     body2: "I am passionate about building functional and aesthetically appealing solutions that enhance people's lives. My expertise spans across various fields, and I enjoy tackling challenging problems and coming up with unique solutions.",
