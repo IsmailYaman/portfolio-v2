@@ -53,7 +53,7 @@ export const socials = [
     },
 ];
 
-export const experience = [
+export const experiences = [
     {
         programmingLanguages: [
             {
@@ -132,11 +132,6 @@ export const experience = [
             },
             {
                 id: 2,
-                label: "Lightspeed",
-                image: "https://img.icons8.com/color/48/000000/lightspeed-logo.png",
-            },
-            {
-                id: 3,
                 label: "Magento",
                 image: "https://img.icons8.com/color/48/000000/magento.png",
             },
