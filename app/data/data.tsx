@@ -55,7 +55,7 @@ export const socials = [
 
 export const experiences = [
     {
-        programmingLanguages: [
+        programming: [
             {
                 id: 1,
                 label: "HTML5",
@@ -96,30 +96,28 @@ export const experiences = [
                 label: "MySQL",
                 image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
             },
-        ],
-        frameworksLibraries: [
             {
-                id: 1,
+                id: 9,
                 label: "Tailwind CSS",
                 image: "https://img.icons8.com/color/48/000000/tailwind-css.png",
             },
             {
-                id: 2,
+                id: 10,
                 label: "Bootstrap",
                 image: "https://img.icons8.com/color/48/000000/bootstrap.png",
             },
             {
-                id: 3,
+                id: 11,
                 label: "Material UI",
                 image: "https://img.icons8.com/color/48/000000/material-ui.png",
             },
             {
-                id: 4,
+                id: 12,
                 label: "jQuery",
                 image: "https://img.icons8.com/ios-filled/50/000000/jquery.png",
             },
             {
-                id: 5,
+                id: 13,
                 label: "Laravel",
                 image: "https://img.icons8.com/ios-filled/50/000000/laravel.png",
             },

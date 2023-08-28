@@ -9,22 +9,12 @@ const Experiences = () => {
                 <h1 className="text-center">Experiences</h1>
                 <div className="flex flex-wrap mx-4">
                     <div>
-                        <h2>Programming Languages</h2>
-                        {experiences[0].programmingLanguages.map((language) => (
+                        <h2>Programming</h2>
+                        {experiences[0].programming.map((programming) => (
                             <ExperiencesCard
-                                key={language.id}
-                                label={language.label}
-                                image={language.image}
-                                id={0}
-                            />
-                        ))}
-
-                        <h2>Frameworks and Libraries</h2>
-                        {experiences[0].frameworksLibraries.map((framework) => (
-                            <ExperiencesCard
-                                key={framework.id}
-                                label={framework.label}
-                                image={framework.image}
+                                key={programming.id}
+                                label={programming.label}
+                                image={programming.image}
                                 id={0}
                             />
                         ))}
