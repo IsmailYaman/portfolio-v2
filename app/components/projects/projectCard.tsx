@@ -6,13 +6,15 @@ import ProjectModal from "./projectModal";
 // Define the type/interface for the props
 interface ProjectCardProps {
     project: {
+        id: number;
         image: string;
         title: string;
-        tools: { label: string }[];
-        description: { body1: string }[];
+        tools: { label: string, image?:string}[];
+        description: { body1: string; body2?: string }[]; // Update description type
         links: { url: string; label: string }[];
     };
 }
+
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);

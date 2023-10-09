@@ -1,10 +1,10 @@
 // types.ts
 export interface Project {
-    links: any;
     id: number;
+    links: { label: string; url: string }[];
     title: string;
-    description: { body1: string; body2: string }[];
-    tools: { label: string; image: string }[];
+    description: { body1: string; body2?: string }[];
+    tools: { label: string; image?: string }[];
     image: string;
 }
 

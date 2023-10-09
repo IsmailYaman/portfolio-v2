@@ -23,9 +23,7 @@ const Header = () => {
 
     return (
         <div
-            className={`navbar ${
-                isScrolled ? "bg-base-100/30 ease-in-out duration-300" : "bg-transparent ease-in-out duration-300"
-            } fixed`}
+            className="navbar bg-transparent absolute top-0"
         >
             <div className="container mx-auto">
                 <div className="flex-1">
