@@ -10,7 +10,7 @@ const Experiences = () => {
                 <div className="flex flex-wrap mx-4">
                     <div>
                         <h2>Programming</h2>
-                        {experiences[0].programming.map((programming) => (
+                        {experiences.programming.map((programming) => (
                             <ExperiencesCard
                                 key={programming.id}
                                 label={programming.label}
@@ -20,7 +20,7 @@ const Experiences = () => {
                         ))}
 
                         <h2>Ecommerce</h2>
-                        {experiences[0].ecommerce.map((ecommerce) => (
+                        {experiences.ecommerce.map((ecommerce) => (
                             <ExperiencesCard
                                 key={ecommerce.id}
                                 label={ecommerce.label}
@@ -30,7 +30,7 @@ const Experiences = () => {
                         ))}
 
                         <h2>Design</h2>
-                        {experiences[0].design.map((design) => (
+                        {experiences.design.map((design) => (
                             <ExperiencesCard
                                 key={design.id}
                                 label={design.label}
@@ -40,7 +40,7 @@ const Experiences = () => {
                         ))}
 
                         <h2>Game development</h2>
-                        {experiences[0].gameDevelopment.map((gameDevelopment) => (
+                        {experiences.gameDevelopment.map((gameDevelopment) => (
                             <ExperiencesCard
                                 key={gameDevelopment.id}
                                 label={gameDevelopment.label}
@@ -50,7 +50,7 @@ const Experiences = () => {
                         ))}
 
                         <h2>Other</h2>
-                        {experiences[0].other.map((other) => (
+                        {experiences.other.map((other) => (
                             <ExperiencesCard
                                 key={other.id}
                                 label={other.label}

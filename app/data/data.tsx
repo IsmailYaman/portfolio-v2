@@ -30,160 +30,158 @@ export const socials = [
     },
 ];
 
-export const experiences = [
-    {
-        programming: [
-            {
-                id: 1,
-                label: "HTML5",
-                image: "https://img.icons8.com/color/48/000000/html-5--v1.png",
-            },
-            {
-                id: 2,
-                label: "CSS3",
-                image: "https://img.icons8.com/color/48/000000/css3.png",
-            },
-            {
-                id: 3,
-                label: "JavaScript",
-                image: "https://img.icons8.com/color/48/000000/javascript--v1.png",
-            },
-            {
-                id: 4,
-                label: "TypeScript",
-                image: "https://img.icons8.com/color/48/000000/typescript.png",
-            },
-            {
-                id: 5,
-                label: "React",
-                image: "https://img.icons8.com/color/48/000000/react-native.png",
-            },
-            {
-                id: 6,
-                label: "Node.js",
-                image: "https://img.icons8.com/color/48/000000/nodejs.png",
-            },
-            {
-                id: 7,
-                label: "PHP",
-                image: "https://img.icons8.com/officel/48/000000/php-logo.png",
-            },
-            {
-                id: 8,
-                label: "MySQL",
-                image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
-            },
-            {
-                id: 9,
-                label: "Tailwind CSS",
-                image: "https://img.icons8.com/color/48/000000/tailwind-css.png",
-            },
-            {
-                id: 10,
-                label: "Bootstrap",
-                image: "https://img.icons8.com/color/48/000000/bootstrap.png",
-            },
-            {
-                id: 11,
-                label: "Material UI",
-                image: "https://img.icons8.com/color/48/000000/material-ui.png",
-            },
-            {
-                id: 12,
-                label: "jQuery",
-                image: "https://img.icons8.com/ios-filled/50/000000/jquery.png",
-            },
-            {
-                id: 13,
-                label: "Laravel",
-                image: "https://img.icons8.com/ios-filled/50/000000/laravel.png",
-            },
-        ],
-        ecommerce: [
-            {
-                id: 1,
-                label: "Shopify",
-                image: "https://img.icons8.com/color/48/000000/shopify.png",
-            },
-            {
-                id: 2,
-                label: "Magento",
-                image: "https://img.icons8.com/color/48/000000/magento.png",
-            },
-        ],
-        design: [
-            {
-                id: 1,
-                label: "Adobe Photoshop",
-                image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
-            },
-            {
-                id: 2,
-                label: "Adobe Illustrator",
-                image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
-            },
-            {
-                id: 3,
-                label: "Adobe XD",
-                image: "https://img.icons8.com/color/48/000000/adobe-xd--v1.png",
-            },
-            {
-                id: 4,
-                label: "After Effects",
-                image: "https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png",
-            },
-            {
-                id: 5,
-                label: "Figma",
-                image: "https://img.icons8.com/color/48/000000/figma--v1.png",
-            },
-        ],
-        gameDevelopment: [
-            {
-                id: 1,
-                label: "Unity",
-                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
-            },
-            {
-                id: 2,
-                label: "Unreal Engine",
-                image: "https://img.icons8.com/color/48/000000/unreal-engine.png",
-            },
-        ],
-        other: [
-            {
-                id: 1,
-                label: "Scrum",
-                image: "https://img.icons8.com/color/48/000000/scrum.png",
-            },
-            {
-                id: 2,
-                label: "GitHub",
-                image: "https://img.icons8.com/ios-filled/50/000000/github.png",
-            },
-            {
-                id: 3,
-                label: "Azure DevOps",
-                image: "https://img.icons8.com/color/48/000000/azure-1.png",
-            },
-            {
-                id: 4,
-                label: "Jira",
-                image: "https://img.icons8.com/color/48/000000/jira.png",
-            },
-            {
-                id: 5,
-                label: "Wordpress",
-                image: "https://img.icons8.com/color/48/000000/wordpress.png",
-            },
-            {
-                id: 6,
-                label: "Blender",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
-            },
-        ],
-    },
-];
+export const experiences = {
+    programming: [
+        {
+            id: 1,
+            label: "HTML5",
+            image: "https://img.icons8.com/color/48/000000/html-5--v1.png",
+        },
+        {
+            id: 2,
+            label: "CSS3",
+            image: "https://img.icons8.com/color/48/000000/css3.png",
+        },
+        {
+            id: 3,
+            label: "JavaScript",
+            image: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        },
+        {
+            id: 4,
+            label: "TypeScript",
+            image: "https://img.icons8.com/color/48/000000/typescript.png",
+        },
+        {
+            id: 5,
+            label: "React",
+            image: "https://img.icons8.com/color/48/000000/react-native.png",
+        },
+        {
+            id: 6,
+            label: "Node.js",
+            image: "https://img.icons8.com/color/48/000000/nodejs.png",
+        },
+        {
+            id: 7,
+            label: "PHP",
+            image: "https://img.icons8.com/officel/48/000000/php-logo.png",
+        },
+        {
+            id: 8,
+            label: "MySQL",
+            image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
+        },
+        {
+            id: 9,
+            label: "Tailwind CSS",
+            image: "https://img.icons8.com/color/48/000000/tailwind-css.png",
+        },
+        {
+            id: 10,
+            label: "Bootstrap",
+            image: "https://img.icons8.com/color/48/000000/bootstrap.png",
+        },
+        {
+            id: 11,
+            label: "Material UI",
+            image: "https://img.icons8.com/color/48/000000/material-ui.png",
+        },
+        {
+            id: 12,
+            label: "jQuery",
+            image: "https://img.icons8.com/ios-filled/50/000000/jquery.png",
+        },
+        {
+            id: 13,
+            label: "Laravel",
+            image: "https://img.icons8.com/ios-filled/50/000000/laravel.png",
+        },
+    ],
+    ecommerce: [
+        {
+            id: 1,
+            label: "Shopify",
+            image: "https://img.icons8.com/color/48/000000/shopify.png",
+        },
+        {
+            id: 2,
+            label: "Magento",
+            image: "https://img.icons8.com/color/48/000000/magento.png",
+        },
+    ],
+    design: [
+        {
+            id: 1,
+            label: "Adobe Photoshop",
+            image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
+        },
+        {
+            id: 2,
+            label: "Adobe Illustrator",
+            image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
+        },
+        {
+            id: 3,
+            label: "Adobe XD",
+            image: "https://img.icons8.com/color/48/000000/adobe-xd--v1.png",
+        },
+        {
+            id: 4,
+            label: "After Effects",
+            image: "https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png",
+        },
+        {
+            id: 5,
+            label: "Figma",
+            image: "https://img.icons8.com/color/48/000000/figma--v1.png",
+        },
+    ],
+    gameDevelopment: [
+        {
+            id: 1,
+            label: "Unity",
+            image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
+        },
+        {
+            id: 2,
+            label: "Unreal Engine",
+            image: "https://img.icons8.com/color/48/000000/unreal-engine.png",
+        },
+    ],
+    other: [
+        {
+            id: 1,
+            label: "Scrum",
+            image: "https://img.icons8.com/color/48/000000/scrum.png",
+        },
+        {
+            id: 2,
+            label: "GitHub",
+            image: "https://img.icons8.com/ios-filled/50/000000/github.png",
+        },
+        {
+            id: 3,
+            label: "Azure DevOps",
+            image: "https://img.icons8.com/color/48/000000/azure-1.png",
+        },
+        {
+            id: 4,
+            label: "Jira",
+            image: "https://img.icons8.com/color/48/000000/jira.png",
+        },
+        {
+            id: 5,
+            label: "Wordpress",
+            image: "https://img.icons8.com/color/48/000000/wordpress.png",
+        },
+        {
+            id: 6,
+            label: "Blender",
+            image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+        },
+    ],
+};
 
 export const projects = [
     {
@@ -192,32 +190,32 @@ export const projects = [
         description: [
             {
                 body1: "Achromira is a story rich platformer where Mira, the character you play as, has to search for all the crystal shards in order to restore colour to her own world and that of others. Follow her on her journey to rescue three unique worlds, Achrome City, Rutate and Gryd.",
-                body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels."
+                body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
-                url: "https://project.cmi.hr.nl/2021_2022/game_greenhouse/"
-            }
+                url: "https://project.cmi.hr.nl/2021_2022/game_greenhouse/",
+            },
         ],
         tools: [
             {
                 label: "Unity",
-                image: "https://img.icons8.com/ios-filled/50/000000/unity.png"
+                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
             },
             {
                 label: "Blender",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png"
+                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
             },
             {
                 label: "Adobe Photoshop",
-                image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"
+                image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
             },
             {
                 label: "Adobe Illustrator",
-                image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png"
+                image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
             },
         ],
     },
@@ -227,28 +225,28 @@ export const projects = [
         description: [
             {
                 body1: "This was another schoolproject where I and my team had to solve a problem that medical students at the Erasmus University were facing. The pelvis is one of the few parts of the human body that is very difficult for students to understand only from books. We made a 3D visualization that makes the pelvis clear to students by showing it from different perspectives.",
-                body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it."
+                body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Read more",
-                url: "https://cmgt.hr.nl/projecten/waar-bekken-ik"
+                url: "https://cmgt.hr.nl/projecten/waar-bekken-ik",
             },
         ],
         tools: [
             {
                 label: "React",
-                image: "https://img.icons8.com/color/48/000000/react-native.png"
+                image: "https://img.icons8.com/color/48/000000/react-native.png",
             },
-            {   
+            {
                 label: "Scrum",
-                image: "https://img.icons8.com/color/48/000000/scrum.png"
+                image: "https://img.icons8.com/color/48/000000/scrum.png",
             },
             {
                 label: "Blender",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png"
+                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
             },
         ],
     },
@@ -257,28 +255,28 @@ export const projects = [
         title: "Akropolis",
         description: [
             {
-                body1:"This was a schoolproject where I had to find my own client to make a website for. At the time I worked at a Greek restaurant and the owner needed a new website. Now I could combine my school with work and learn new things in the process."
+                body1: "This was a schoolproject where I had to find my own client to make a website for. At the time I worked at a Greek restaurant and the owner needed a new website. Now I could combine my school with work and learn new things in the process.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
-                url: "https://ismailkayadelen.com/akropolis/reserveringssysteem/"
+                url: "https://ismailkayadelen.com/akropolis/reserveringssysteem/",
             },
         ],
         tools: [
             {
                 label: "PHP",
-                image: "https://img.icons8.com/officel/48/000000/php-logo.png"
+                image: "https://img.icons8.com/officel/48/000000/php-logo.png",
             },
             {
                 label: "MySQL",
-                image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"
+                image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
             },
             {
                 label: "Bootstrap",
-                image: "https://img.icons8.com/color/48/000000/bootstrap.png"
+                image: "https://img.icons8.com/color/48/000000/bootstrap.png",
             },
         ],
     },
@@ -287,20 +285,20 @@ export const projects = [
         title: "Unreal Engine 4 Shooter",
         description: [
             {
-                body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4."
+                body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "View demo ",
-                url: "https://www.youtube.com/playlist?list=PLlibq_pnekYPDebVB2VMDJfsEDNbRWXOF"
+                url: "https://www.youtube.com/playlist?list=PLlibq_pnekYPDebVB2VMDJfsEDNbRWXOF",
             },
         ],
         tools: [
             {
                 label: "Unreal Engine 4",
-                image: "https://img.icons8.com/color/48/000000/unreal-engine.png"
+                image: "https://img.icons8.com/color/48/000000/unreal-engine.png",
             },
         ],
     },
@@ -309,20 +307,20 @@ export const projects = [
         title: "School blog",
         description: [
             {
-                body1: "The first asignment when I started at CMGT was to make a personal blog in which I could document all the tasks I've done."
+                body1: "The first asignment when I started at CMGT was to make a personal blog in which I could document all the tasks I've done.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Visit blog",
-                url: "https://stud.hosted.hr.nl/0964864/"
+                url: "https://stud.hosted.hr.nl/0964864/",
             },
         ],
         tools: [
             {
                 label: "WordPress",
-                image: "https://img.icons8.com/color/48/000000/wordpress.png"
+                image: "https://img.icons8.com/color/48/000000/wordpress.png",
             },
         ],
     },
@@ -331,20 +329,20 @@ export const projects = [
         title: "SSI Rotterdam",
         description: [
             {
-                body1: "SSI (Seksuele straatintimidatie) Rotterdam was a project for the municipality of Rotterdam aimed at raising awareness about sexual street harassment in busy areas of the city. It involved a VR experience that put users in the shoes of victims of street harassment. The goal was to foster empathy and initiate a dialogue about this issue, ultimately leading to increased awareness and positive change in society."
+                body1: "SSI (Seksuele straatintimidatie) Rotterdam was a project for the municipality of Rotterdam aimed at raising awareness about sexual street harassment in busy areas of the city. It involved a VR experience that put users in the shoes of victims of street harassment. The goal was to foster empathy and initiate a dialogue about this issue, ultimately leading to increased awareness and positive change in society.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Read more",
-                url: "http://project.hosted.hr.nl/2021_2022/mlab2_strin_t6/"
+                url: "http://project.hosted.hr.nl/2021_2022/mlab2_strin_t6/",
             },
         ],
         tools: [
             {
                 label: "Unity",
-                image: "https://img.icons8.com/ios-filled/50/000000/unity.png"
+                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
             },
         ],
     },
@@ -353,29 +351,29 @@ export const projects = [
         title: "SkeeballVK",
         description: [
             {
-                body1: "This was a schoolproject where I had to make a landingpage for a product that we had designed. The website was targeted towards parents that wanted an educational toy for their young kids. Hence the playful looks of the website."
+                body1: "This was a schoolproject where I had to make a landingpage for a product that we had designed. The website was targeted towards parents that wanted an educational toy for their young kids. Hence the playful looks of the website.",
             },
         ],
         image: "/img/purple.png",
         links: [
             {
                 label: "Visit website",
-                url: "https://stud.hosted.hr.nl/0964864/skeeballvk/"
+                url: "https://stud.hosted.hr.nl/0964864/skeeballvk/",
             },
         ],
         tools: [
             {
                 label: "HTML",
-                image: "https://img.icons8.com/color/48/000000/html-5.png"
+                image: "https://img.icons8.com/color/48/000000/html-5.png",
             },
             {
                 label: "CSS",
-                image: "https://img.icons8.com/color/48/000000/css3.png"
+                image: "https://img.icons8.com/color/48/000000/css3.png",
             },
             {
                 label: "JavaScript",
-                image: "https://img.icons8.com/color/48/000000/javascript.png"
+                image: "https://img.icons8.com/color/48/000000/javascript.png",
             },
         ],
     },
-]
+];
