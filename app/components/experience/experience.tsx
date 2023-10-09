@@ -6,61 +6,52 @@ const Experiences = () => {
     return (
         <div className="py-5 text-base-100 bg-white">
             <div className="sm:container mx-auto">
-                <h1 className="text-center">Experiences</h1>
-                <div className="flex flex-wrap mx-4">
-                    <div>
-                        <h2>Programming</h2>
-                        {experiences.programming.map((programming) => (
-                            <ExperiencesCard
-                                key={programming.id}
-                                label={programming.label}
-                                image={programming.image}
-                                id={0}
-                            />
-                        ))}
-
-                        <h2>Ecommerce</h2>
-                        {experiences.ecommerce.map((ecommerce) => (
-                            <ExperiencesCard
-                                key={ecommerce.id}
-                                label={ecommerce.label}
-                                image={ecommerce.image}
-                                id={0}
-                            />
-                        ))}
-
-                        <h2>Design</h2>
-                        {experiences.design.map((design) => (
-                            <ExperiencesCard
-                                key={design.id}
-                                label={design.label}
-                                image={design.image}
-                                id={0}
-                            />
-                        ))}
-
-                        <h2>Game development</h2>
-                        {experiences.gameDevelopment.map((gameDevelopment) => (
-                            <ExperiencesCard
-                                key={gameDevelopment.id}
-                                label={gameDevelopment.label}
-                                image={gameDevelopment.image}
-                                id={0}
-                            />
-                        ))}
-
-                        <h2>Other</h2>
-                        {experiences.other.map((other) => (
-                            <ExperiencesCard
-                                key={other.id}
-                                label={other.label}
-                                image={other.image}
-                                id={0}
-                            />
-                        ))}
-                        {/* Repeat the above pattern for other categories */}
-                    </div>
+                <h1>Experiences</h1>
+                <h2 className="mb-8">Programming</h2>
+                <div className="flex flex-wrap items-center mx-2">
+                    {experiences.programming.map((programming, index) => (
+                        <div key={programming.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">
+                            <ExperiencesCard label={programming.label} image={programming.image} id={0} />
+                        </div>
+                    ))}
                 </div>
+
+                <h2>Ecommerce</h2>
+                <div className="flex flex-wrap items-center -mx-2">
+                    {experiences.ecommerce.map((ecommerce, index) => (
+                        <div key={ecommerce.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">
+                            <ExperiencesCard label={ecommerce.label} image={ecommerce.image} id={0} />
+                        </div>
+                    ))}
+                </div>
+
+                <h2>Design</h2>
+                <div className="flex flex-wrap items-center -mx-2">
+                    {experiences.design.map((design, index) => (
+                        <div key={design.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">
+                            <ExperiencesCard label={design.label} image={design.image} id={0} />
+                        </div>
+                    ))}
+                </div>
+
+                <h2>Game Development</h2>
+                <div className="flex flex-wrap items-center -mx-2">
+                    {experiences.gameDevelopment.map((gameDevelopment, index) => (
+                        <div key={gameDevelopment.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">
+                            <ExperiencesCard label={gameDevelopment.label} image={gameDevelopment.image} id={0} />
+                        </div>
+                    ))}
+                </div>
+
+                <h2 className="text-center">Other</h2>
+                <div className="flex flex-wrap items-center -mx-2">
+                    {experiences.other.map((other, index) => (
+                        <div key={other.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">
+                            <ExperiencesCard label={other.label} image={other.image} id={0} />
+                        </div>
+                    ))}
+                </div>
+                {/* Repeat the above pattern for other categories */}
             </div>
         </div>
     );

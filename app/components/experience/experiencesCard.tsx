@@ -7,9 +7,9 @@ interface ExperiencePrompts {
 }
 const ExperiencesCard: React.FC<ExperiencePrompts> = ({ label, image }) => {
     return (
-        <div>
+        <div className=" flex flex-col items-center justify-center">
             <Image src={image} width={100} height={100} alt={label} quality={100} />
-            <p>{label}</p>
+            <p className="text-center">{label}</p>
         </div>
     );
 };

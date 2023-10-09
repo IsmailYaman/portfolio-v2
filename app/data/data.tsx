@@ -35,150 +35,145 @@ export const experiences = {
         {
             id: 1,
             label: "HTML5",
-            image: "https://img.icons8.com/color/48/000000/html-5--v1.png",
+            image: "/icons/html.svg"
         },
         {
             id: 2,
             label: "CSS3",
-            image: "https://img.icons8.com/color/48/000000/css3.png",
+            image: "/icons/css.svg"
         },
         {
             id: 3,
             label: "JavaScript",
-            image: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+            image: "/icons/js.svg"
         },
         {
             id: 4,
             label: "TypeScript",
-            image: "https://img.icons8.com/color/48/000000/typescript.png",
+            image: "/icons/typescript.svg"
         },
         {
             id: 5,
             label: "React",
-            image: "https://img.icons8.com/color/48/000000/react-native.png",
+            image: "/icons/react.svg"
         },
         {
             id: 6,
             label: "Node.js",
-            image: "https://img.icons8.com/color/48/000000/nodejs.png",
+            image: "/icons/nodejs.svg"
         },
         {
             id: 7,
             label: "PHP",
-            image: "https://img.icons8.com/officel/48/000000/php-logo.png",
+            image: "/icons/php.svg",
         },
         {
             id: 8,
             label: "MySQL",
-            image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
+            image: "/icons/mysql.svg"
         },
         {
             id: 9,
             label: "Tailwind CSS",
-            image: "https://img.icons8.com/color/48/000000/tailwind-css.png",
+            image: "/icons/tailwind.svg"
         },
         {
             id: 10,
             label: "Bootstrap",
-            image: "https://img.icons8.com/color/48/000000/bootstrap.png",
+            image: "/icons/bootstrap.svg"
         },
         {
             id: 11,
-            label: "Material UI",
-            image: "https://img.icons8.com/color/48/000000/material-ui.png",
+            label: "jQuery",
+            image: "/icons/jquery.svg"
         },
         {
             id: 12,
-            label: "jQuery",
-            image: "https://img.icons8.com/ios-filled/50/000000/jquery.png",
-        },
-        {
-            id: 13,
             label: "Laravel",
-            image: "https://img.icons8.com/ios-filled/50/000000/laravel.png",
+            image: "/icons/laravel.svg"
         },
     ],
     ecommerce: [
         {
             id: 1,
             label: "Shopify",
-            image: "https://img.icons8.com/color/48/000000/shopify.png",
+            image: "/icons/shopify.svg"
         },
         {
             id: 2,
             label: "Magento",
-            image: "https://img.icons8.com/color/48/000000/magento.png",
+            image: "/icons/magento.svg"
         },
     ],
     design: [
         {
             id: 1,
             label: "Adobe Photoshop",
-            image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
+            image: "/icons/photoshop.svg"
         },
         {
             id: 2,
             label: "Adobe Illustrator",
-            image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
+            image: "/icons/illustrator.svg"
         },
         {
             id: 3,
             label: "Adobe XD",
-            image: "https://img.icons8.com/color/48/000000/adobe-xd--v1.png",
+            image: "/icons/xd.svg"
         },
         {
             id: 4,
             label: "After Effects",
-            image: "https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png",
+            image: "/icons/aftereffects.svg"
         },
         {
             id: 5,
             label: "Figma",
-            image: "https://img.icons8.com/color/48/000000/figma--v1.png",
+            image: "/icons/figma.svg"
         },
     ],
     gameDevelopment: [
         {
             id: 1,
             label: "Unity",
-            image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
+            image: "/icons/unity.svg"
         },
         {
             id: 2,
             label: "Unreal Engine",
-            image: "https://img.icons8.com/color/48/000000/unreal-engine.png",
+            image: "/icons/ue4.svg"
         },
     ],
     other: [
         {
             id: 1,
             label: "Scrum",
-            image: "https://img.icons8.com/color/48/000000/scrum.png",
+            image: "/icons/scrum.svg"
         },
         {
             id: 2,
             label: "GitHub",
-            image: "https://img.icons8.com/ios-filled/50/000000/github.png",
+            image: "/icons/github.svg"
         },
         {
             id: 3,
             label: "Azure DevOps",
-            image: "https://img.icons8.com/color/48/000000/azure-1.png",
+            image: "/icons/azure.svg"
         },
         {
             id: 4,
             label: "Jira",
-            image: "https://img.icons8.com/color/48/000000/jira.png",
+            image: "/icons/jira.svg"
         },
         {
             id: 5,
             label: "Wordpress",
-            image: "https://img.icons8.com/color/48/000000/wordpress.png",
+            image: "/icons/wordpress.svg"
         },
         {
             id: 6,
             label: "Blender",
-            image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+            image: "/icons/blender.svg"
         },
     ],
 };
