@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen bg-center bg-[url('/img/purple.png')] ">
+        <div className="flex flex-col items-center justify-center h-screen bg-center bg-[url('/img/purple.png')] bg-no-repeat">
             <h1 className="">Ismail Kayadelen</h1>
             <h2 className="font-light">Web Development & Web Design</h2>
             <a href="#"className="my-4 px-5 py-2.5 relative rounded group text-white font-medium inline-block">
