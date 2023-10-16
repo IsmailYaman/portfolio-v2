@@ -1,0 +1,27 @@
+"use client";
+
+import React, { useEffect, useState } from "react";
+
+const Banner2 = () => {
+    return (
+        // Make this responsive
+        <div className="h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/purple.png')] bg-cover">
+            <div className="w-1/2 backdrop-blur-lg shadow-2xl right-0 flex h-screen absolute justify-center flex-col">
+                <div className="mx-auto px-8">
+                    <h1 className="text-4xl font-bold mb-4">Ismail Kayadelen</h1>
+                    <h2 className="font-light mb-4">Web Development & Web Design</h2>
+                    <a
+                        href="#_"
+                        className="relative m-1 bg-primary inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
+                    >
+                        <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
+                        <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
+                        <span className="relative">Let's work together!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Banner2;

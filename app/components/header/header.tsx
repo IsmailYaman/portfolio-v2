@@ -1,11 +1,10 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Logo from "../logo";
 import DropDownMenu from "./dropdownMenu";
 
 const Header = () => {
     return (
-        <div className="navbar bg-transparent absolute top-0">
+        <div className="navbar bg-transparent absolute z-10 top-0">
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="cursor-pointer" href="/">

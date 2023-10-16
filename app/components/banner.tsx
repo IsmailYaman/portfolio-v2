@@ -27,8 +27,8 @@ const Banner = () => {
     }`;
 
     return (
-        <div className="bg-primary bg-center flex">
-            <div className={`h-screen ${slidingImage} bg-center duration-1000  bg-[url('/img/purple.png')]`}></div>
+        <div className="bg-primary flex">
+            <div className={`h-screen ${slidingImage} bg-no-repeat bg-cover bg-center duration-1000 bg-[url('/img/purple.png')]`}></div>
             <div
                 className={`max-w-2/5 flex flex-col items-center justify-center h-screen mx-auto bg-center  ${
                     isAnimated && isVisible ? "" : "hidden"
