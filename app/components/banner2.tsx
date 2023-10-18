@@ -1,12 +1,15 @@
 "use client";
 
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const Banner2 = () => {
     return (
         // Make this responsive
-        <div className="h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/purple.png')] bg-cover">
-            <div className="w-1/2 backdrop-blur-lg shadow-2xl right-0 flex h-screen absolute justify-center flex-col">
+        // <div className="h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/purple.png')] bg-cover">
+        <div className="h-screen">
+            <Image src="/img/ccchaos.svg" layout="fill" objectFit="cover" alt={"background"} />
+            <div className="w-1/2 right-0 flex h-screen absolute justify-center flex-col ">
                 <div className="mx-auto px-8">
                     <h1 className="text-4xl font-bold mb-4">Ismail Kayadelen</h1>
                     <h2 className="font-light mb-4">Web Development & Web Design</h2>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="py-5 text-base-100 bg-white ">
+        <div className="py-5 text-base-100 bg-white dark:bg-dark ">
             <div className="sm:container mx-auto">
                 <h1 className="text-center">About</h1>
                 <div className="grid grid-flow-col grid-rows-3 gap-4">
