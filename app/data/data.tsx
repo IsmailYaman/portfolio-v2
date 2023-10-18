@@ -12,22 +12,14 @@ export const socials = [
         id: 1,
         label: "Github",
         link: "https://github.com/IsmailYaman",
+        image: "/icons/github.svg",
     },
     {
         id: 2,
         label: "LinkedIn",
         link: "https://www.linkedin.com/in/ismail-kayadelen-56a0b6133/",
-    },
-    {
-        id: 3,
-        label: "YouTube",
-        link: "https://www.youtube.com/@ismail_yaman",
-    },
-    {
-        id: 4,
-        label: "Instagram",
-        link: "https://www.instagram.com/iso_yaman/",
-    },
+        image: "/icons/linkedin.svg",
+    }
 ];
 
 export const experiences = {
@@ -153,7 +145,7 @@ export const experiences = {
         {
             id: 2,
             label: "GitHub",
-            image: "/icons/github.svg"
+            image: "/icons/github-dark.svg"
         },
         {
             id: 3,
