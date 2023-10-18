@@ -1,0 +1,29 @@
+<svg width="2402" height="390" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <linearGradient id="oooscillate-grad" y2="100%" x2="50%" y1="0%" x1="50%">
+   <stop offset="0%" stop-color="hsl(206, 75%, 49%)"/>
+   <stop offset="100%" stop-color="hsl(331, 90%, 56%)"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" stroke-linecap="round" fill="none" stroke="url(#oooscillate-grad)" stroke-width="2">
+   <path id="svg_2" opacity="0.25" d="m1,331q600,-49 1200,26q600,75 1200,-26"/>
+   <path id="svg_3" opacity="0.08" d="m1,309q600,-27 1200,48q600,75 1200,-48"/>
+   <path id="svg_4" opacity="0.93" d="m1,287q600,-5 1200,70q600,75 1200,-70"/>
+   <path id="svg_5" opacity="0.89" d="m1,265q600,17 1200,92q600,75 1200,-92"/>
+   <path id="svg_6" d="m1,243q600,39 1200,114q600,75 1200,-114"/>
+   <path id="svg_7" opacity="0.33" d="m1,221q600,61 1200,136q600,75 1200,-136"/>
+   <path id="svg_8" opacity="0.22" d="m1,199q600,83 1200,158q600,75 1200,-158"/>
+   <path id="svg_9" opacity="0.5" d="m1,177q600,105 1200,180q600,75 1200,-180"/>
+   <path id="svg_10" opacity="0.56" d="m1,155q600,127 1200,202q600,75 1200,-202"/>
+   <path id="svg_11" opacity="0.79" d="m1,133q600,149 1200,224q600,75 1200,-224"/>
+   <path id="svg_12" opacity="0.95" d="m1,111q600,171 1200,246q600,75 1200,-246"/>
+   <path id="svg_13" opacity="0.78" d="m1,89q600,193 1200,268q600,75 1200,-268"/>
+   <path id="svg_14" opacity="0.77" d="m1,67q600,215 1200,290q600,75 1200,-290"/>
+   <path id="svg_15" opacity="0.94" d="m1,45q600,237 1200,312q600,75 1200,-312"/>
+   <path id="svg_16" opacity="0.22" d="m1,23q600,259 1200,334q600,75 1200,-334"/>
+   <path id="svg_17" opacity="0.97" d="m1,1q600,281 1200,356q600,75 1200,-356"/>
+  </g>
+ </g>
+</svg>
