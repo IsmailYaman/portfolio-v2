@@ -9,7 +9,6 @@ const About = () => {
                 <h1 className="text-center">About</h1>
                 <div className="grid grid-flow-col grid-rows-3 gap-4">
                     <div className="row-span-4 w-64">
-                        {/* <Image src="/img/ismail.jpg" width={500} height={500} alt="ismail" /> */}
                         <Image
                             src={about.photo}
                             alt="ismail"
@@ -17,6 +16,7 @@ const About = () => {
                             width={500}
                             height={500}
                         />
+
                     </div>
                     <div>
                         <p>Hello! my name is Ismail Kayadelen. {about.body1}</p>
