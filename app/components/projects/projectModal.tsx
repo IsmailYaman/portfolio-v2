@@ -1,52 +1,78 @@
 import Image from "next/image";
 import React from "react";
-import { Project } from "../../types";
 
-interface ModalProps {
+interface ProjectModalProps {
+    project: {
+        title: string;
+        description: { body1: string; body2?: string }[];
+        image: string;
+        links: { label: string; url: string }[];
+        tools: { label: string; image: string }[];
+    };
     onClose: () => void;
 }
 
-const ProjectModal: React.FC<ModalProps & { project: Project }> = ({ onClose, project }) => {
+const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
     return (
-        <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div
-                className="absolute inset-0 bg-black opacity-50"
+        <dialog id="projectModal" className="modal bg-black bg-opacity-50 backdrop-blur-sm ease-in-out" open>
+            <div className="modal-box flex flex-col lg:flex-row max-w-6xl p-10">
+                <form method="dialog">
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-10" onClick={onClose}>
+                        ✕
+                    </button>
+                </form>
 
-            ></div>
-            <div className="card lg:card-side glass max-w-7xl shadow-xl">
-                <figure>
-                    <Image src={project.image} quality={100} width={500} height={500} alt={project.title} />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title text-white">{project.title}</h2>
-                    {project.description.map((desc, index) => (
-                        <>
-                            <p className="text-white text-justify" key={index}>
-                                {desc.body1}
-                            </p>
-                            <br />
-                            <p className="text-white text-justify" key={index}>
-                                {desc.body2}
-                            </p>
-                        </>
-                    ))}
-                    <p className="text-white font-bold ">I&apos;ve worked on this project using:</p>
-                    <div className="card-actions justify-start">
-                        {project.tools.map((tool) => (
-                            <div key={tool.label} className="badge badge-primary text-white">
-                                {tool.label}
-                            </div>
-                        ))}
+                <div className="lg:w-3/5 relative">
+                    <div className="w-full h-96">
+                        <Image
+                            src={project.image}
+                            quality={100}
+                            alt={project.title}
+                            layout="fill"
+                            objectFit="cover"
+                            className="object-center rounded-xl"
+                        />
                     </div>
+                </div>
 
-                    {/* <div className="card-actions justify-end">
-                        <button className="btn btn-primary" onClick={onClose}>
-                            Close
-                        </button>
-                    </div> */}
+                <div className="lg:ml-5 lg:w-2/5 justify-between">
+                    <h2>{project.title}</h2>
+                    {project.description.map((desc, index) => (
+                        <div key={index} className="mb-5">
+                            <p className="mb-4">{desc.body1}</p>
+                            {desc.body2 && <p className="mb-4">{desc.body2}</p>}
+                        </div>
+                    ))}
+
+                    <div className="flex w-full justify-between">
+                        <div className="flex flex-col">
+                            <strong className="mb-1">Tools used:</strong>
+                            <div className="flex flex-wrap">
+                                {project.tools.map((tool, index) => (
+                                    <div key={index} className="badge badge-primary badge-sm mr-1 mb-1 text-white">
+                                        {tool.label}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="flex flex-col align-bottom self-end">
+                            {project.links.map((link, index) => (
+                                <a
+                                    key={index}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-primary"
+                                >
+                                    {link.label}
+                                </a>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </dialog>
     );
 };
+
 export default ProjectModal;
