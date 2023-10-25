@@ -8,23 +8,20 @@ module.exports = {
     ],
     theme: {
         extend: {
-            backgroundImage: {
-                "purple-bg": "url('/public/img/purple.png')",
-            },
             animation: {
-                'bounce': 'bounce 3s linear infinite',
-              }
+                bounce: "bounce 3s linear infinite",
+            },
         },
     },
     daisyui: {
-        themes: ["dark",
+        themes: [
             {
                 mytheme: {
                     primary: "#4c1d95",
                     secondary: "#d946ef",
                     accent: "#1FB2A5",
                     neutral: "#191D24",
-                    "base-100": "#2A303C",
+                    "base-100": "#121212",
                     info: "#3ABFF8",
                     success: "#36D399",
                     warning: "#f59e0b",

@@ -4,7 +4,7 @@ import { experiences } from "../../data/data"; // Import the projects data
 
 const Experiences = () => {
     return (
-        <div className="py-5 text-base-100 bg-white">
+        <div className="py-5 bg-base-100">
             <div className="sm:container mx-auto">
                 <h1>Experiences</h1>
                 <h2 className="mb-8">Programming</h2>
@@ -51,7 +51,6 @@ const Experiences = () => {
                         </div>
                     ))}
                 </div>
-                {/* Repeat the above pattern for other categories */}
             </div>
         </div>
     );

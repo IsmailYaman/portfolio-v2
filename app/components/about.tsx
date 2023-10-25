@@ -4,32 +4,16 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="py-5 text-base-100 bg-white dark:bg-dark">
+        <div className="py-5 bg-base-100">
             <div className="sm:container mx-auto">
-                <h1 className="text-center">About</h1>
-                <div className="grid grid-flow-col grid-rows-3 gap-4">
-                    <div className="row-span-4 w-64">
-                        <Image
-                            src={about.photo}
-                            alt="ismail"
-                            className="rounded-full"
-                            width={500}
-                            height={500}
-                        />
-
+                <div className="grid grid-cols-2 grid-rows-4 gap-4">
+                    <div className="row-span-4">
+                        <Image src={about.photo} alt="Ismail" className="rounded-full" width={500} height={500} />
                     </div>
-                    <div>
-                        <p>Hello! my name is Ismail Kayadelen. {about.body1}</p>
-                    </div>
-                    <div>
-                        <p>{about.body2}</p>
-                    </div>
-                    <div>
-                        <p>{about.body3}</p>
-                    </div>
-                    <div>
-                        <p>{about.body4}</p>
-                    </div>
+                    <div><p>Hello! I'm Ismail. {about.body1}</p></div>
+                    <div className="col-start-2"><p>{about.body2}</p></div>
+                    <div className="col-start-2 row-start-3">{about.body3}</div>
+                    <div className="col-start-2 row-start-4">{about.body4}</div>
                 </div>
             </div>
         </div>

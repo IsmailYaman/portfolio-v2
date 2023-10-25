@@ -2,9 +2,7 @@ import Image from "next/image";
 
 const Banner2 = () => {
     return (
-        // Make this responsive
-        // <div className="h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/purple.png')] bg-cover">
-        <div className="h-screen relative">
+        <div className="h-screen relative bg-base-100">
             <Image src="/img/ccchaos.svg" layout="fill" objectFit="cover" alt="background" />
             <div className="md:w-1/2 sm:w-full right-0 flex h-screen absolute justify-center flex-col">
                 <div className="mx-auto px-8">

@@ -16,7 +16,7 @@ const Projects = () => {
     };
 
     return (
-        <div className="py-5 text-base-100 bg-white">
+        <div className="py-5 bg-base-100">
             <div className="sm:container mx-auto">
                 <h1 className="text-center">Projects</h1>
                 <div className="flex flex-wrap mx-4">
