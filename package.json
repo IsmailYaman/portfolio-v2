@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@next/font": "^13.5.6",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -25,6 +26,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "daisyui": "^3.1.7"
+    "daisyui": "^3.1.7",
+    "prettier-plugin-tailwindcss": "^0.5.6"
   }
 }
