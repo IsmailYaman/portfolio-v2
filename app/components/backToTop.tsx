@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
+import { scrollToTop } from "../functions/scrollToTop"; // Import the utility function
 
 const BackToTop: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,7 +11,7 @@ const BackToTop: React.FC = () => {
       const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
       const scrollThreshold = 300;
-      const bottomThreshold = 200; // Adjust this value as needed
+      const bottomThreshold = 300;
 
       if (scrollY > scrollThreshold && scrollY + windowHeight < document.documentElement.scrollHeight - bottomThreshold) {
         setIsVisible(true);
@@ -24,13 +25,6 @@ const BackToTop: React.FC = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <Transition
       show={isVisible}
@@ -43,7 +37,7 @@ const BackToTop: React.FC = () => {
       leaveTo="opacity-0"
     >
       <button
-        onClick={scrollToTop}
+        onClick={scrollToTop} // Use the utility function here
         className="fixed bottom-4 right-4 bg-gray-800 hover:opacity-75 ease-in-out duration-100 text-white rounded-full w-12 h-12 flex items-center justify-center cursor-pointer z-50"
       >
         <svg
