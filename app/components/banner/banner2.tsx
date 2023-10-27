@@ -6,8 +6,8 @@ const Banner2 = () => {
             <Image src="/img/ccchaos.svg" layout="fill" objectFit="cover" alt="background" />
             <div className="md:w-1/2 sm:w-full right-0 flex h-screen absolute justify-center flex-col">
                 <div className="mx-auto px-8">
-                    <h1 className="text-4xl font-bold mb-4">Ismail Kayadelen</h1>
-                    <h2 className="font-light mb-4">Web Development & Web Design</h2>
+                    <h1 className=" font-bold mb-4">Ismail Kayadelen</h1>
+                    <h3 className="font-light mb-4">Frontend Development & Design</h3> 
                     <a
                         href="#_"
                         className="relative m-1 outline outline-offset-1 outline-2 outline-primary/50 hover:outline-primary/75 ease-in-out duration-100 active:outline-primary/100 bg-gradient-to-br from-[#180042] via-[#2e017d] to-primary inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"

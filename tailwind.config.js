@@ -17,15 +17,15 @@ module.exports = {
         themes: [
             {
                 mytheme: {
-                    primary: "#4c1d95",
-                    secondary: "#d946ef",
-                    accent: "#1FB2A5",
+                    primary: "#312e81",
+                    secondary: "#7e22ce",
+                    accent: "#db2777",
                     neutral: "#191D24",
                     "base-100": "#121212",
-                    info: "#3ABFF8",
-                    success: "#36D399",
-                    warning: "#f59e0b",
-                    error: "#F87272",
+                    info: "#67e8f9",
+                    success: "#10b981",
+                    warning: "#f5d547",
+                    error: "#f87171",
                     extra: "#100C28",
                     dark: "#121212",
                 },

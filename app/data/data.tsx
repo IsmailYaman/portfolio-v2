@@ -1,11 +1,18 @@
 export const about = {
     photo: "/img/ismail.jpg",
-    title: "Hello! I'm Ismail Kayadelen",
-    body1: "Currently in my final year of my studies in Creative Media & Game Technologies at the Rotterdam University of Applied Sciences in the Netherlands. With my skills in frontend/backend development, game development, and design, I am capable of creating engaging digital experiences that surpass expectations.",
-    body2: "I am passionate about building functional and aesthetically appealing solutions that enhance people's lives. My expertise spans across various fields, and I enjoy tackling challenging problems and coming up with unique solutions.",
-    body3: "Outside of work, I indulge in my hobby: cars. When I am not immersed in software development or designing experiences, you can often find me under the hood of my beloved car. Working on cars is a relaxing and enjoyable activity for me.",
-    body4: "I invite you to explore my portfolio and take a glimpse into my work. Whether you are interested in collaboration, have inquiries, or simply want to talk about cars, please feel free to get in touch. Let's create something amazing together!",
+    title: "Hello! I'm Ismail.",
+    body1: " in his final year of study in Creative Media & Game Technologies in Rotterdam, the Netherlands.",
+    body2: "I am passionate about building functional and aesthetically appealing solutions. With a versatile skill set encompassing frontend/backend development, game design, and more, I specialize in crafting captivating digital experiences that exceed expectations.",
+    body3: "Outside of work, you'll find me either working out in the gym or under the hood of my car. Bodybuilding and tinkering on cars are a relaxing and enjoyable activity for me.",
 };
+
+export const aboutSkills = [
+    "Frontend Developer",
+    "Backend Developer",
+    "Designer",
+    "Game Developer",
+    "3D Artist",
+];
 
 export const socials = [
     {
