@@ -7,7 +7,6 @@ const AboutSkills = () => {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const [visible, setVisible] = useState(true);
 
-  // Function to update the skill index every 2 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setVisible(false);
@@ -16,7 +15,7 @@ const AboutSkills = () => {
           (prevIndex + 1) % aboutSkills.length
         );
         setVisible(true);
-      }, 500); // Adjust the timing here for your desired effect
+      }, 500); 
     }, 4000);
 
     return () => clearInterval(interval);
