@@ -15,7 +15,7 @@ interface ProjectModalProps {
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
     return (
         <dialog id="projectModal" className="modal bg-black bg-opacity-50 backdrop-blur-sm ease-in-out" open>
-            <div className="modal-box flex flex-col lg:flex-row max-w-6xl p-10">
+            <div className="modal-box flex flex-col lg:flex-row max-w-6xl p-10 text-white">
                 <form method="dialog">
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-10" onClick={onClose}>
                         ✕
@@ -39,8 +39,8 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                     <h2>{project.title}</h2>
                     {project.description.map((desc, index) => (
                         <div key={index} className="mb-5">
-                            <p className="mb-4">{desc.body1}</p>
-                            {desc.body2 && <p className="mb-4">{desc.body2}</p>}
+                            {desc.body1}
+                            {desc.body2 && <p className="mt-4">{desc.body2}</p>}
                         </div>
                     ))}
 
@@ -49,7 +49,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                             <strong className="mb-1">Tools used:</strong>
                             <div className="flex flex-wrap">
                                 {project.tools.map((tool, index) => (
-                                    <div key={index} className="badge badge-primary badge-sm mr-1 mb-1 text-white">
+                                    <div key={index} className="badge badge-primary badge-md mr-1 mb-1 text-white">
                                         {tool.label}
                                     </div>
                                 ))}
@@ -62,7 +62,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                                     href={link.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-primary"
+                                    className="btn border-none bg-gradient-to-br from-primary to-purple-900 hover:scale-110 ease-out duration-100"
                                 >
                                     {link.label}
                                 </a>
