@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import React, { useState } from "react";
 import ProjectCard from "./projectCard";
 import ProjectModal from "./projectModal"; // Import the ProjectModal component
@@ -12,7 +12,13 @@ const Projects = () => {
     };
 
     const closeModal = () => {
-        setSelectedProject(null);
+        const modalElement = document.querySelector('.modal');
+        if (modalElement) {
+            modalElement.classList.remove('modal-open');
+        }
+        setTimeout(() => {
+            setSelectedProject(null);
+        }, 300); // Assuming the fade-out animation duration is 300ms
     };
 
     return (
@@ -30,7 +36,9 @@ const Projects = () => {
                 </div>
             </div>
 
-            {selectedProject !== null && <ProjectModal project={projects[selectedProject - 1]} onClose={closeModal} />}
+            {selectedProject !== null && (
+                <ProjectModal project={projects[selectedProject - 1]} onClose={closeModal} />
+            )}
         </div>
     );
 };
