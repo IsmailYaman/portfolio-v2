@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import React from "react";
 
@@ -37,16 +37,22 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                         </div>
                     </div>
 
-                    <div className="lg:ml-5 lg:w-2/5 justify-between">
-                        <h2>{project.title}</h2>
-                        {project.description.map((desc, index) => (
-                            <div key={index} className="mb-5">
-                                {desc.body1}
-                                {desc.body2 && <p className="mt-4">{desc.body2}</p>}
-                            </div>
-                        ))}
+                    <div className="lg:ml-5 lg:w-2/5 flex flex-col justify-between">
+                        <div className="flex-grow">
+                            {" "}
+                            {/* This div will take up the majority of the available space */}
+                            <h2>{project.title}</h2>
+                            {project.description.map((desc, index) => (
+                                <div key={index} className="mb-5">
+                                    {desc.body1}
+                                    {desc.body2 && <p className="mt-4">{desc.body2}</p>}
+                                </div>
+                            ))}
+                        </div>
 
-                        <div className="flex w-full justify-between">
+                        <div className="flex w-full justify-between mt-4">
+                            {" "}
+                            {/* This div will be at the bottom */}
                             <div className="flex flex-col">
                                 <strong className="mb-1">Tools used:</strong>
                                 <div className="flex flex-wrap">
