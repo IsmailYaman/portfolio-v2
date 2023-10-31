@@ -8,7 +8,7 @@ const About = () => {
         <div className="py-36 bg-base-100">
             <div className="sm:container mx-auto">
                 <div className="grid lg:grid-cols-2 lg:grid-rows-1 grid-rows-1 lg:gap-x-10">
-                    <div className="relative hover:transform hover:scale-105 transition duration-100 ease-in-out group sm:row-span-2">
+                    <div className="relative hover:transform hover:scale-105 transition duration-100 ease-in-out group sm:row-span-2 my-auto">
                         <Image
                             src="/img/purple.png"
                             alt="Ismail"
@@ -24,14 +24,14 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center lg:col-start-2">
+                    <div className="my-auto">
                         <h2 className="font-medium">
                             I'm a <AboutSkills /> {about.body1}
                         </h2>
+                        <p className="text-justify mt-5">
+                            {about.body2} <br /> <br /> {about.body3}
+                        </p>
                     </div>
-                    <p className="text-justify lg:col-start-2 flex items-center">
-                        {about.body2} <br /> <br /> {about.body3}
-                    </p>
                 </div>
             </div>
         </div>
