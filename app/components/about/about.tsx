@@ -24,7 +24,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="my-auto">
+                    <div className="my-auto mx-4">
                         <h2 className="font-medium">
                             I'm a <AboutSkills /> {about.body1}
                         </h2>
