@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import ProjectCard from "./projectCard";
-import ProjectModal from "./projectModal"; // Import the ProjectModal component
+import ProjectModal from "./projectModal"; 
 import { projects } from "../../data/data";
 
 const Projects = () => {
@@ -18,29 +18,30 @@ const Projects = () => {
         }
         setTimeout(() => {
             setSelectedProject(null);
-        }, 300); // Assuming the fade-out animation duration is 300ms
+        }, 300); 
     };
 
     return (
-        <div className="py-5 bg-base-100">
-            <div className="sm:container mx-auto">
-                <h1 className="text-center">Projects</h1>
-                <div className="flex flex-wrap mx-4">
-                    {projects.map((project) => (
-                        <div key={project.id} className="w-full sm:w-1/2 md:w-1/3 p-4">
-                            <div onClick={() => openModal(project.id)} className="cursor-pointer">
-                                <ProjectCard project={project} />
-                            </div>
+    <div className="py-5 bg-base-100">
+        <div className="sm:container mx-auto">
+            <h1 className="text-center">Projects</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-4">
+                {projects.map((project) => (
+                    <div key={project.id} className="p-4">
+                        <div onClick={() => openModal(project.id)} className="cursor-pointer">
+                            <ProjectCard project={project} />
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
-
-            {selectedProject !== null && (
-                <ProjectModal project={projects[selectedProject - 1]} onClose={closeModal} />
-            )}
         </div>
-    );
+
+        {selectedProject !== null && (
+            <ProjectModal project={projects[selectedProject - 1]} onClose={closeModal} />
+        )}
+    </div>
+);
+
 };
 
 export default Projects;

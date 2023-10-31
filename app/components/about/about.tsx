@@ -8,11 +8,11 @@ const About = () => {
     <div className="py-36 bg-base-100">
       <div className="sm:container mx-auto">
         <div className="grid grid-cols-2 grid-rows-2">
-          <div className="row-span-2 relative hover:transform hover:scale-105 transition duration-100 ease-in-out">
+          <div className="row-span-2 relative hover:transform hover:scale-105 transition duration-100 ease-in-out group">
             <Image
               src="/img/purple.png"
               alt="Ismail"
-              className="rounded-2xl mx-auto shadow-2xl shadow-primary"
+              className="rounded-2xl mx-auto shadow-2xl shadow-primary/50 group-hover:shadow-primary ease-out duration-100"
               width={500}
               height={500}
             />

@@ -15,7 +15,7 @@ interface ProjectModalProps {
 
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
     return (
-        <div className="fixed inset-0 flex items-center justify-center z-50">
+        <div className="fixed inset-0 flex items-center justify-center z-50 ">
             <div className="modal modal-open ">
                 <div className="modal-box flex flex-col lg:flex-row max-w-6xl p-10 text-white">
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-10" onClick={onClose}>
@@ -39,8 +39,6 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 
                     <div className="lg:ml-5 lg:w-2/5 flex flex-col justify-between">
                         <div className="flex-grow">
-                            {" "}
-                            {/* This div will take up the majority of the available space */}
                             <h2>{project.title}</h2>
                             {project.description.map((desc, index) => (
                                 <div key={index} className="mb-5">
@@ -51,8 +49,6 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                         </div>
 
                         <div className="flex w-full justify-between mt-4">
-                            {" "}
-                            {/* This div will be at the bottom */}
                             <div className="flex flex-col">
                                 <strong className="mb-1">Tools used:</strong>
                                 <div className="flex flex-wrap">
@@ -70,7 +66,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                                         href={link.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="btn border-none bg-gradient-to-br from-primary to-purple-900 hover:scale-110 ease-out duration-100"
+                                        className="btn border-none text-white bg-gradient-to-br from-primary to-purple-900 hover:scale-110 ease-out duration-100"
                                     >
                                         {link.label}
                                     </a>
