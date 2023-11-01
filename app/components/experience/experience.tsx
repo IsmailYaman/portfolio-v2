@@ -5,7 +5,7 @@ import { experiences } from "../../data/data"; // Import the projects data
 const Experiences = () => {
     return (
         <div className="py-5 bg-base-100">
-            <div className="sm:container mx-auto">
+            <div className="sm:container sm:mx-auto mx-4 ">
                 <h1>Experiences</h1>
                 <h2 className="mb-8">Programming</h2>
                 <div className="flex flex-wrap items-center mx-2">

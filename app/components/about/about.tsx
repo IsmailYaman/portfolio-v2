@@ -6,7 +6,7 @@ import AboutSkills from "./aboutSkills";
 const About = () => {
     return (
         <div className="py-36 bg-base-100">
-            <div className="sm:container mx-auto">
+            <div className="sm:container sm:mx-auto mx-4 ">
                 <div className="grid lg:grid-cols-2 lg:grid-rows-1 grid-rows-1 lg:gap-x-10">
                     <div className="relative hover:transform hover:scale-105 transition duration-100 ease-in-out group sm:row-span-2 my-auto">
                         <Image
@@ -24,7 +24,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="my-auto mx-4">
+                    <div className="my-auto">
                         <h2 className="font-medium">
                             I'm a <AboutSkills /> {about.body1}
                         </h2>
