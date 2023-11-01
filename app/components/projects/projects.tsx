@@ -22,7 +22,7 @@ const Projects = () => {
     };
 
     return (
-    <div className="py-5 bg-base-100">
+    <div className="pb-36 bg-base-100">
         <div className="sm:container sm:mx-auto mx-4 ">
             <h1 className="mb-4">Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
