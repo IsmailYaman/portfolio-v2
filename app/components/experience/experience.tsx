@@ -43,7 +43,7 @@ const Experiences = () => {
                     ))}
                 </div>
 
-                <h2 className="text-center">Other</h2>
+                <h2>Other</h2>
                 <div className="flex flex-wrap items-center mx-2">
                     {experiences.other.map((other, index) => (
                         <div key={other.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 px-2 mb-4">

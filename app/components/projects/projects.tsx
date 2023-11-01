@@ -24,7 +24,7 @@ const Projects = () => {
     return (
     <div className="py-5 bg-base-100">
         <div className="sm:container mx-auto">
-            <h1 className="text-center">Projects</h1>
+            <h1>Projects</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-4">
                 {projects.map((project) => (
                     <div key={project.id} className="p-4">

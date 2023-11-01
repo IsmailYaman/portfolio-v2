@@ -1,16 +1,16 @@
 import React from "react";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import { Quicksand, DM_Serif_Display  } from "next/font/google";
+import { Quicksand, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
-// export const dmSerifDisplay = DM_Serif_Display({
-//     subsets: ["latin"],
-//     variable: "--font-dmserifdisplay",
-//     weight: "400",
-// });
+export const dmSerifDisplay = Playfair_Display({
+    subsets: ["latin"],
+    variable: "--font-dmserifdisplay",
+});
+
 
 export const metadata = {
     title: "Ismail Kayadelen | Portfolio",
@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" data-theme="mytheme" className={quicksand.className}>
-            <body >
+            <body>
                 <Header />
                 {children}
                 <Footer />
