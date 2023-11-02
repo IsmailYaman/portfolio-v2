@@ -19,7 +19,7 @@ const Banner2 = () => {
                     </a>
                 </div>
             </div>
-            <div className=" absolute inset-x-0 bottom-12 flex items-center justify-center z-50">
+            <div className="absolute inset-x-0 bottom-12 flex items-center justify-center z-50">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
