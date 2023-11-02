@@ -29,6 +29,7 @@ export const experiences = {
             id: 1,
             label: "HTML5",
             image: "/icons/html.svg",
+            svg: ""
         },
         {
             id: 2,

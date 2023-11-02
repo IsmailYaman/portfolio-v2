@@ -30,13 +30,13 @@ const RandomCatImage: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {catImage ? (
         <Image src={catImage.url} alt="Random Cat" width={300} height={200} />
       ) : (
         <span className="loading loading-dots loading-lg"></span>
       )}
-    </div>
+    </>
   );
 };
 
