@@ -10,7 +10,7 @@ const Banner2 = () => {
                     <h1 className=" font-bold mb-4">Ismail Kayadelen</h1>
                     <h3 className="font-light mb-4">Development & Design</h3>
                     <a
-                        href="#_"
+                        href="mailto:iso_yaman@outlook.com"
                         className="relative m-1 hover:shadow-2xl hover:shadow-primary hover:scale-110 duration-300 border-2 border-primary ease-in-out duration-100 active:outline-primary bg-gradient-to-br from-[#180042] via-[#2e017d] to-primary inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
                     >
                         <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>

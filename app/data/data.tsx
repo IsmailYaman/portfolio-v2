@@ -1,6 +1,11 @@
 export const aboutSkills = ["Frontend Developer", "Backend Developer", "Designer", "Game Developer", "3D Artist"];
 
-export const headerLinks = ["about", "projects", "experience", "contact"];
+export const headerLinks = [
+    { label: "About", target: "about" },
+    { label: "Projects", target: "projects" },
+    { label: "Experience", target: "experience" },
+    { label: "Contact", target: "contact" },
+];
 
 export const about = {
     photo: "/img/ismail.jpg",

@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./logo";
 import DropDownMenu from "./dropdownMenu";
-import {headerLinks} from "../../data/data"
+import { headerLinks } from "../../data/data";
 
 const Header = () => {
     return (
@@ -15,8 +15,10 @@ const Header = () => {
                 <div className="flex-none sm:block hidden">
                     <ul className="menu menu-horizontal px-1">
                         {headerLinks.map((link) => (
-                            <li>
-                                <a href="#" className="capitalize">{link}</a>
+                            <li key={link.target}>
+                                <a href={`#${link.target}`} className="hover:bg-primary/25">
+                                    {link.label}
+                                </a>
                             </li>
                         ))}
                     </ul>
