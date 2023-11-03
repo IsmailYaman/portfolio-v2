@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./logo";
 import DropDownMenu from "./dropdownMenu";
 import { headerLinks } from "../../data/data";
+import Link from "next/link";
 
 const Header = () => {
     return (
@@ -16,9 +17,9 @@ const Header = () => {
                     <ul className="menu menu-horizontal px-1">
                         {headerLinks.map((link) => (
                             <li key={link.target}>
-                                <a href={`#${link.target}`} className="hover:bg-primary/50 hover:text-white active:!bg-primary active:!text-white focus:!text-white focus:!bg-primary/75 ">
+                                <Link href={`#${link.target}`} className="hover:bg-primary/50 hover:text-white active:!bg-primary active:!text-white focus:!text-white focus:!bg-primary/75 ">
                                     {link.label}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>

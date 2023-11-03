@@ -211,11 +211,11 @@ export const projects = [
                 image: "https://img.icons8.com/color/48/000000/blender-3d.png",
             },
             {
-                label: "Adobe Photoshop",
+                label: "Photoshop",
                 image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
             },
             {
-                label: "Adobe Illustrator",
+                label: "Illustrator",
                 image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
             },
         ],

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface ProjectModalProps {
@@ -61,7 +62,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                             </div>
                             <div className="flex flex-col align-bottom self-end">
                                 {project.links.map((link, index) => (
-                                    <a
+                                    <Link
                                         key={index}
                                         href={link.url}
                                         target="_blank"
@@ -69,7 +70,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                                         className="btn border-none text-white bg-gradient-to-br from-primary to-purple-900 hover:scale-110 ease-out duration-100"
                                     >
                                         {link.label}
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </div>

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import ProjectCard from "./projectCard";
 import ProjectModal from "./projectModal"; 
 import { projects } from "../../data/data";
+import VisitGithub from "./visitGithub";
 
 const Projects = () => {
     const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -35,6 +36,7 @@ const Projects = () => {
                     </div>
                 </div>
             ))}
+            <VisitGithub />
         </div>
     </div>
 
