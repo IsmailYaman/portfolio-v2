@@ -1,4 +1,5 @@
 import React from "react";
+import { headerLinks } from "../../data/data";
 
 const DropDownMenu = () => {
     return (
@@ -11,30 +12,23 @@ const DropDownMenu = () => {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                 >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4 6h16M4 12h16M4 18h7"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
                 </svg>
             </label>
             <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200/30 rounded-box w-52"
             >
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="#">Experience</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                {headerLinks.map((link) => (
+                    <li key={link.target}>
+                        <a
+                            href={`#${link.target}`}
+                            className="hover:bg-primary/50 hover:text-white active:!bg-primary active:!text-white focus:!text-white focus:!bg-primary/75 "
+                        >
+                            {link.label}
+                        </a>
+                    </li>
+                ))}
             </ul>
         </div>
     );

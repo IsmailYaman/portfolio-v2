@@ -16,7 +16,7 @@ const Header = () => {
                     <ul className="menu menu-horizontal px-1">
                         {headerLinks.map((link) => (
                             <li key={link.target}>
-                                <a href={`#${link.target}`} className="hover:bg-primary/25">
+                                <a href={`#${link.target}`} className="hover:bg-primary/50 hover:text-white active:!bg-primary active:!text-white focus:!text-white focus:!bg-primary/75 ">
                                     {link.label}
                                 </a>
                             </li>

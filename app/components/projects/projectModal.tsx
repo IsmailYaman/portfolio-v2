@@ -16,7 +16,7 @@ interface ProjectModalProps {
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
     return (
         <div className="fixed inset-0 flex items-center justify-center z-50 ">
-            <div className="modal modal-open ">
+            <div className="modal modal-open">
                 <div className="modal-box flex flex-col lg:flex-row max-w-6xl p-10 text-white">
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-10" onClick={onClose}>
                         ✕
