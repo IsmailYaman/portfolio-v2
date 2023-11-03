@@ -15,7 +15,6 @@ const Experiences: React.FC = () => {
 
                 {Object.entries(experiences).map(([key, value]) => (
                     <ExperienceSection key={key} title={camelCaseToTitleCase(key)} data={value} />
-
                 ))}
             </div>
         </div>
