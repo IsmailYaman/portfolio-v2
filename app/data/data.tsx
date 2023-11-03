@@ -1,3 +1,7 @@
+export const aboutSkills = ["Frontend Developer", "Backend Developer", "Designer", "Game Developer", "3D Artist"];
+
+export const headerLinks = ["about", "projects", "experience", "contact"];
+
 export const about = {
     photo: "/img/ismail.jpg",
     title: "Hello! I'm Ismail.",
@@ -5,8 +9,6 @@ export const about = {
     body2: "I am passionate about building functional and aesthetically appealing solutions. With a versatile skill set encompassing frontend/backend development, game design, and more, I specialize in crafting captivating digital experiences that exceed expectations.",
     body3: "Outside of work, you'll find me either working out in the gym or under the hood of my car. Bodybuilding and tinkering on cars are a relaxing and enjoyable activity for me.",
 };
-
-export const aboutSkills = ["Frontend Developer", "Backend Developer", "Designer", "Game Developer", "3D Artist"];
 
 export const socials = [
     {
