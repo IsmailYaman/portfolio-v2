@@ -11,7 +11,6 @@ export const dmSerifDisplay = Playfair_Display({
     variable: "--font-dmserifdisplay",
 });
 
-
 export const metadata = {
     title: "Ismail Kayadelen | Portfolio",
     description: "Portfolio",
