@@ -29,7 +29,7 @@ export const experiences = {
             id: 1,
             label: "HTML5",
             image: "/icons/html.svg",
-            svg: ""
+            svg: "",
         },
         {
             id: 2,
@@ -107,17 +107,17 @@ export const experiences = {
     design: [
         {
             id: 1,
-            label: "Adobe Photoshop",
+            label: "Photoshop",
             image: "/icons/photoshop.svg",
         },
         {
             id: 2,
-            label: "Adobe Illustrator",
+            label: "Illustrator",
             image: "/icons/illustrator.svg",
         },
         {
             id: 3,
-            label: "Adobe XD",
+            label: "XD",
             image: "/icons/xd.svg",
         },
         {
@@ -127,7 +127,7 @@ export const experiences = {
         },
         {
             id: 5,
-            label: "Adobe Premiere Pro",
+            label: "Premiere Pro",
             image: "/icons/premiere-pro.svg",
         },
         {
@@ -151,31 +151,26 @@ export const experiences = {
     other: [
         {
             id: 1,
-            label: "Scrum",
-            image: "/icons/scrum.svg",
-        },
-        {
-            id: 2,
             label: "GitHub",
             image: "/icons/github.svg",
         },
         {
-            id: 3,
+            id: 2,
             label: "Azure DevOps",
             image: "/icons/azure.svg",
         },
         {
-            id: 4,
+            id: 3,
             label: "Jira",
             image: "/icons/jira.svg",
         },
         {
-            id: 5,
+            id: 4,
             label: "Wordpress",
             image: "/icons/wordpress.svg",
         },
         {
-            id: 6,
+            id: 5,
             label: "Blender",
             image: "/icons/blender.svg",
         },
