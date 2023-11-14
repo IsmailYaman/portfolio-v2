@@ -20,7 +20,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" data-theme="mytheme" className={`scroll-smooth ${quicksand.className}`}>
             <head>
-            <link rel="icon" href="/logo.ico" sizes="any" />
             </head>
             <body>
                 <Header />

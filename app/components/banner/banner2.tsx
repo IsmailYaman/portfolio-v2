@@ -3,7 +3,7 @@ import Image from "next/image";
 const Banner2 = () => {
     return (
         <div className="h-screen relative bg-base-100">
-            <Image src="/img/ccchaos4.svg" layout="fill" objectFit="cover" className="max-h-screen" alt="background"/>
+            <Image src="/img/ccchaos4.svg" width={5000} height={5000} className="max-h-screen object-cover h-screen absolute" alt="background"/>
             <div className="md:w-1/2 sm:w-full right-0 flex h-screen absolute justify-center flex-col">
                 <div className="mx-auto px-8">
                     

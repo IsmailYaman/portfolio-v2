@@ -23,11 +23,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </figure>
             <div className="card-body bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 rounded-b-2xl">
                 <h2 className="card-title text-white">{project.title}</h2>
-                <div className="card-actions">
-                    {project.tools.map((tool) => (
-                        <div className="badge badge-primary badge-sm text-white">{tool.label}</div>
-                    ))}
-                </div>
+<div className="card-actions">
+    {project.tools.map((tool) => (
+        <div key={tool.label} className="badge badge-primary badge-sm text-white">
+            {tool.label}
+        </div>
+    ))}
+</div>
             </div>
         </div>
     );
