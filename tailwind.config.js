@@ -8,7 +8,10 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                bounce: "bounce 3s linear infinite",
+                bounce: "bounce 2s linear infinite",
+            },
+            screens: {
+                'xs': '540px',
             },
         },
     },
