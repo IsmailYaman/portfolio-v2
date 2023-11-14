@@ -26,7 +26,7 @@ const Projects = () => {
 <div className="pb-36 bg-base-100 px-4" id="projects">
     <div className="sm:container sm:mx-auto">
         <div className="relative inline-block mb-4">
-            <h1><span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text text-5xl leading-loose font-black">Projects</span> I've worked on</h1>
+            <h1><span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text text-5xl leading-loose font-black">Projects</span> I&#39;ve worked on</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {projects.map((project) => (

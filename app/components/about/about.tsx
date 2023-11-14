@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                     <div className="my-auto">
                         <h2 className="font-medium">
-                            I'm a <AboutSkills /> {about.body1}
+                            I&#39;m a <AboutSkills /> {about.body1}
                         </h2>
                         <p className="text-justify mt-5">
                             {about.body2} <br /> <br /> {about.body3}
