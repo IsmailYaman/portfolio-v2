@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container mx-auto">
                 <div className="flex-1">
                     <a className="btn btn-ghost hover:bg-transparent" href="/">
-                        <Logo mode="white" />
+                        <Logo mode="white" />{""}
                     </a>
                 </div>
                 <div className="flex-none sm:block hidden">

@@ -36,7 +36,7 @@ const BackToTop: React.FC = () => {
       leaveFrom="opacity-25"
       leaveTo="opacity-0"
     >
-      <button
+      <div
         onClick={scrollToTop} // Use the utility function here
         className="fixed bottom-4 right-4 bg-gray-800 hover:opacity-75 ease-in-out duration-100 text-white rounded-full w-12 h-12 flex items-center justify-center cursor-pointer z-50"
       >
@@ -54,7 +54,7 @@ const BackToTop: React.FC = () => {
             d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
           />
         </svg>
-      </button>
+      </div>
     </Transition>
   );
 };
