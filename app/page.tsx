@@ -5,6 +5,7 @@ import About from "./components/about/about";
 import Projects from "./components/projects/projects";
 import Experience from "./components/experience/experience";
 import BackToTopButton from "./components/backToTop";
+import Education from "./components/education/education";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
           <BackToTopButton />
           <Banner2/>
           <About />
+          <Education />
           <Projects />
           <Experience />
         </>

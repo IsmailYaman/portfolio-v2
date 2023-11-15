@@ -30,6 +30,7 @@ module.exports = {
                     error: "#f87171",
                 },
             },
+            "cyberpunk"
         ],
     },
     plugins: [require("daisyui")],
