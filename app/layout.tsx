@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
+import { Analytics } from '@vercel/analytics/react';
 import { Quicksand, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body>
                 <Header />
                 {children}
+                <Analytics />
                 <Footer />
             </body>
         </html>
