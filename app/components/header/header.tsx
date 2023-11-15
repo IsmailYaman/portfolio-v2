@@ -9,7 +9,7 @@ const Header = () => {
         <div className="navbar bg-transparent absolute z-10 top-0">
             <div className="container mx-auto">
                 <div className="flex-1">
-                    <a className="btn btn-ghost hover:bg-transparent" href="/">
+                    <a className="btn btn-ghost hover:bg-transparent" aria-label="Logo" href="/">
                         <Logo mode="white" />{""}
                     </a>
                 </div>
