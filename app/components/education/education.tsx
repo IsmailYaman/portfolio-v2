@@ -11,20 +11,23 @@ interface EducationItem {
 
 const Education = () => {
     const renderEducationItem = (item: EducationItem) => {
-        // Determine grid classes based on the item's id
         let gridClasses = "";
         switch (item.id) {
             case 1:
-                gridClasses = "lg:col-span-2 lg:row-span-2 p-20 rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                gridClasses =
+                    "lg:col-span-2 lg:row-span-2 p-20 rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 2:
-                gridClasses = "lg:row-span-2 lg:col-start-3 p-20 rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                gridClasses =
+                    "lg:row-span-2 lg:col-start-3 p-20 rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 3:
-                gridClasses = "lg:row-span-3 lg:row-start-3 p-20 rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                gridClasses =
+                    "lg:row-span-3 lg:row-start-3 p-20 rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 4:
-                gridClasses = "lg:col-span-2 lg:row-span-3 row-start-4 p-20 rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                gridClasses =
+                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             default:
                 break;
@@ -34,7 +37,7 @@ const Education = () => {
             <div className={gridClasses}>
                 <div>
                     <span>{item.year}</span>
-                    <h1>{item.title}</h1>
+                    <h1 className="text-2xl py-3 sm:text-4xl sm:py-0">{item.title}</h1>
                     <strong>{item.school}</strong>
                     <p>{item.description}</p>
                 </div>
