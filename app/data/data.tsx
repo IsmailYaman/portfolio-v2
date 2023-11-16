@@ -2,6 +2,7 @@ export const aboutSkills = ["Frontend Developer", "Backend Developer", "Designer
 
 export const headerLinks = [
     { label: "About", target: "about" },
+    { label: "Education", target: "education" },
     { label: "Projects", target: "projects" },
     { label: "Experience", target: "experience" },
     { label: "Contact", target: "contact" },
@@ -15,174 +16,36 @@ export const about = {
     body3: "Outside of work, you'll find me either working out in the gym or under the hood of my car. Bodybuilding and tinkering on cars are a relaxing and enjoyable activity for me.",
 };
 
-export const socials = [
+export const education = [
     {
         id: 1,
-        label: "Github",
-        link: "https://github.com/IsmailYaman",
-        image: "/icons/github.svg",
+        year: "2010 - 2014",
+        title: "VMBO-Kader",
+        school: "Lentiz Floracollege",
+        description: "VMBO",
     },
     {
         id: 2,
-        label: "LinkedIn",
-        link: "https://www.linkedin.com/in/ismail-kayadelen-56a0b6133/",
-        image: "/icons/linkedin.svg",
+        year: "2014 - 2015",
+        title: "Automotive Engineering",
+        school: "ROC Mondriaan",
+        description: "MBO 2",
+    },
+    {
+        id: 3,
+        year: "2015 - 2018",
+        title: "Software Engineering",
+        school: "ROC Mondriaan",
+        description: "MBO 4",
+    },
+    {
+        id: 4,
+        year: "2018 - Heden",
+        title: "Creative Media & Game Technologies",
+        school: "Rotterdam University of Applied Sciences",
+        description: "HBO",
     },
 ];
-
-export const experiences = {
-    programming: [
-        {
-            id: 1,
-            label: "HTML5",
-            image: "/icons/html.svg",
-            svg: "",
-        },
-        {
-            id: 2,
-            label: "CSS3",
-            image: "/icons/css.svg",
-        },
-        {
-            id: 3,
-            label: "JavaScript",
-            image: "/icons/javascript.svg",
-        },
-        {
-            id: 4,
-            label: "TypeScript",
-            image: "/icons/typescript.svg",
-        },
-        {
-            id: 5,
-            label: "React",
-            image: "/icons/react.svg",
-        },
-        {
-            id: 6,
-            label: "Node.js",
-            image: "/icons/nodejs.svg",
-        },
-        {
-            id: 7,
-            label: "PHP",
-            image: "/icons/php.svg",
-        },
-        {
-            id: 8,
-            label: "MySQL",
-            image: "/icons/mysql.svg",
-        },
-        {
-            id: 9,
-            label: "Tailwind CSS",
-            image: "/icons/tailwind.svg",
-        },
-        {
-            id: 10,
-            label: "Bootstrap",
-            image: "/icons/bootstrap.svg",
-        },
-        {
-            id: 11,
-            label: "jQuery",
-            image: "/icons/jquery.svg",
-        },
-        {
-            id: 12,
-            label: "Laravel",
-            image: "/icons/laravel.svg",
-        },
-        {
-            id: 13,
-            label: "NextJS",
-            image: "/icons/next.svg",
-        },
-    ],
-    ecommerce: [
-        {
-            id: 1,
-            label: "Shopify",
-            image: "/icons/shopify.svg",
-        },
-        {
-            id: 2,
-            label: "Magento",
-            image: "/icons/magento.svg",
-        },
-    ],
-    design: [
-        {
-            id: 1,
-            label: "Photoshop",
-            image: "/icons/photoshop.svg",
-        },
-        {
-            id: 2,
-            label: "Illustrator",
-            image: "/icons/illustrator.svg",
-        },
-        {
-            id: 3,
-            label: "XD",
-            image: "/icons/xd.svg",
-        },
-        {
-            id: 4,
-            label: "After Effects",
-            image: "/icons/aftereffects.svg",
-        },
-        {
-            id: 5,
-            label: "Premiere Pro",
-            image: "/icons/premiere-pro.svg",
-        },
-        {
-            id: 6,
-            label: "Figma",
-            image: "/icons/figma.svg",
-        },
-    ],
-    gameDevelopment: [
-        {
-            id: 1,
-            label: "Unity",
-            image: "/icons/unity.svg",
-        },
-        {
-            id: 2,
-            label: "Unreal Engine",
-            image: "/icons/ue4.svg",
-        },
-    ],
-    other: [
-        {
-            id: 1,
-            label: "GitHub",
-            image: "/icons/github.svg",
-        },
-        {
-            id: 2,
-            label: "Azure DevOps",
-            image: "/icons/azure.svg",
-        },
-        {
-            id: 3,
-            label: "Jira",
-            image: "/icons/jira.svg",
-        },
-        {
-            id: 4,
-            label: "Wordpress",
-            image: "/icons/wordpress.svg",
-        },
-        {
-            id: 5,
-            label: "Blender",
-            image: "/icons/blender.svg",
-        },
-    ],
-};
 
 export const projects = [
     {
@@ -376,5 +239,174 @@ export const projects = [
                 image: "https://img.icons8.com/color/48/000000/javascript.png",
             },
         ],
+    },
+];
+
+export const experiences = {
+    programming: [
+        {
+            id: 1,
+            label: "HTML5",
+            image: "/icons/html.svg",
+            svg: "",
+        },
+        {
+            id: 2,
+            label: "CSS3",
+            image: "/icons/css.svg",
+        },
+        {
+            id: 3,
+            label: "JavaScript",
+            image: "/icons/javascript.svg",
+        },
+        {
+            id: 4,
+            label: "TypeScript",
+            image: "/icons/typescript.svg",
+        },
+        {
+            id: 5,
+            label: "React",
+            image: "/icons/react.svg",
+        },
+        {
+            id: 6,
+            label: "Node.js",
+            image: "/icons/nodejs.svg",
+        },
+        {
+            id: 7,
+            label: "PHP",
+            image: "/icons/php.svg",
+        },
+        {
+            id: 8,
+            label: "MySQL",
+            image: "/icons/mysql.svg",
+        },
+        {
+            id: 9,
+            label: "Tailwind CSS",
+            image: "/icons/tailwind.svg",
+        },
+        {
+            id: 10,
+            label: "Bootstrap",
+            image: "/icons/bootstrap.svg",
+        },
+        {
+            id: 11,
+            label: "jQuery",
+            image: "/icons/jquery.svg",
+        },
+        {
+            id: 12,
+            label: "Laravel",
+            image: "/icons/laravel.svg",
+        },
+        {
+            id: 13,
+            label: "NextJS",
+            image: "/icons/next.svg",
+        },
+    ],
+    ecommerce: [
+        {
+            id: 1,
+            label: "Shopify",
+            image: "/icons/shopify.svg",
+        },
+        {
+            id: 2,
+            label: "Magento",
+            image: "/icons/magento.svg",
+        },
+    ],
+    design: [
+        {
+            id: 1,
+            label: "Photoshop",
+            image: "/icons/photoshop.svg",
+        },
+        {
+            id: 2,
+            label: "Illustrator",
+            image: "/icons/illustrator.svg",
+        },
+        {
+            id: 3,
+            label: "XD",
+            image: "/icons/xd.svg",
+        },
+        {
+            id: 4,
+            label: "After Effects",
+            image: "/icons/aftereffects.svg",
+        },
+        {
+            id: 5,
+            label: "Premiere Pro",
+            image: "/icons/premiere-pro.svg",
+        },
+        {
+            id: 6,
+            label: "Figma",
+            image: "/icons/figma.svg",
+        },
+    ],
+    gameDevelopment: [
+        {
+            id: 1,
+            label: "Unity",
+            image: "/icons/unity.svg",
+        },
+        {
+            id: 2,
+            label: "Unreal Engine",
+            image: "/icons/ue4.svg",
+        },
+    ],
+    other: [
+        {
+            id: 1,
+            label: "GitHub",
+            image: "/icons/github.svg",
+        },
+        {
+            id: 2,
+            label: "Azure DevOps",
+            image: "/icons/azure.svg",
+        },
+        {
+            id: 3,
+            label: "Jira",
+            image: "/icons/jira.svg",
+        },
+        {
+            id: 4,
+            label: "Wordpress",
+            image: "/icons/wordpress.svg",
+        },
+        {
+            id: 5,
+            label: "Blender",
+            image: "/icons/blender.svg",
+        },
+    ],
+};
+
+export const socials = [
+    {
+        id: 1,
+        label: "Github",
+        link: "https://github.com/IsmailYaman",
+        image: "/icons/github.svg",
+    },
+    {
+        id: 2,
+        label: "LinkedIn",
+        link: "https://www.linkedin.com/in/ismail-kayadelen-56a0b6133/",
+        image: "/icons/linkedin.svg",
     },
 ];
