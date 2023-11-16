@@ -1,6 +1,47 @@
 import React from "react";
+import { education } from "@/app/data/data";
+
+interface EducationItem {
+    id: number;
+    year: string;
+    title: string;
+    school: string;
+    description: string;
+}
 
 const Education = () => {
+    const renderEducationItem = (item: EducationItem) => {
+        // Determine grid classes based on the item's id
+        let gridClasses = "";
+        switch (item.id) {
+            case 1:
+                gridClasses = "lg:col-span-2 lg:row-span-2 p-20 rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                break;
+            case 2:
+                gridClasses = "lg:row-span-2 lg:col-start-3 p-20 rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                break;
+            case 3:
+                gridClasses = "lg:row-span-3 lg:row-start-3 p-20 rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                break;
+            case 4:
+                gridClasses = "lg:col-span-2 lg:row-span-3 row-start-4 p-20 rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                break;
+            default:
+                break;
+        }
+
+        return (
+            <div className={gridClasses}>
+                <div>
+                    <span>{item.year}</span>
+                    <h1>{item.title}</h1>
+                    <strong>{item.school}</strong>
+                    <p>{item.description}</p>
+                </div>
+            </div>
+        );
+    };
+
     return (
         <div className="pb-36 bg-base-100 px-4" id="education">
             <div className="sm:container sm:mx-auto">
@@ -11,39 +52,8 @@ const Education = () => {
                     I&#39;ve followed
                 </h1>
 
-                <div className="grid grid-cols-3 grid-rows-5 gap-4">
-                    <div className="col-span-2 row-span-2 p-20  rounded-2xl bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full">
-                        <div>
-                            <span>2010 - 2014</span>
-                            <h1>VMBO-Kader</h1>
-                            <strong>Lentiz Floracollege</strong>
-                            <p>VMBO</p>
-                        </div>
-                    </div>
-                    <div className="row-span-2 col-start-3 p-20 rounded-2xl bg-gradient-to-bl from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full">
-                        <div>
-                            <span>2014 - 2015</span>
-                            <h1>Auto technicus</h1>
-                            <strong>ROC Mondriaan</strong>
-                            <p>MBO 2</p>
-                        </div>
-                    </div>
-                    <div className="row-span-3 row-start-3 p-20 rounded-2xl bg-gradient-to-r from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full">
-                        <div>
-                            <span>2015 - 2018</span>
-                            <h1>Software Engineering</h1>
-                            <strong>ROC Mondriaan</strong>
-                            <p>MBO 4</p>
-                        </div>
-                    </div>
-                    <div className="col-span-2 row-span-3 row-start-3 p-20 rounded-2xl bg-gradient-to-tl from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full">
-                        <div>
-                            <span>2018 - Heden</span>
-                            <h1>Creative Media & Game Technologies</h1>
-                            <strong>Hogeschool Rotterdam</strong>
-                            <p>HBO</p>
-                        </div>
-                    </div>
+                <div className="grid lg:grid-cols-3 lg:grid-rows-5 sm:grid-rows-4 sm:grid-cols-1 xs:grid-rows-4 xs:grid-cols-1 gap-4">
+                    {education.map(renderEducationItem)}
                 </div>
             </div>
         </div>
