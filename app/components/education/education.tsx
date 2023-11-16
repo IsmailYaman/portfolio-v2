@@ -37,7 +37,7 @@ const Education = () => {
             <div className={gridClasses}>
                 <div>
                     <span>{item.year}</span>
-                    <h1 className="text-2xl py-3 sm:text-4xl sm:py-0">{item.title}</h1>
+                    <h1 className="text-3xl py-3 sm:text-4xl sm:py-0">{item.title}</h1>
                     <strong>{item.school}</strong>
                     <p>{item.description}</p>
                 </div>
