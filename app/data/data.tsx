@@ -11,9 +11,9 @@ export const headerLinks = [
 export const about = {
     photo: "/img/ismail.jpg",
     title: "Hello! I'm Ismail.",
-    body1: " in his final year of study in Creative Media & Game Technologies in Rotterdam, the Netherlands.",
-    body2: "I am passionate about building functional and aesthetically appealing solutions. With a versatile skill set encompassing frontend/backend development, game design, and more, I specialize in crafting captivating digital experiences that exceed expectations.",
-    body3: "Outside of work, you'll find me either working out in the gym or under the hood of my car. Bodybuilding and tinkering on cars are a relaxing and enjoyable activity for me.",
+    body1: "in his final year of study in Creative Media & Game Technologies in Rotterdam, the Netherlands.",
+    body2: "I have a real passion for crafting solutions that are not only functional but also visually attractive. My skill set is diverse, covering everything from frontend and backend development to game design. I'm dedicated to delivering digital experiences that go beyond what's expected.",
+    body3: "When i'm not wokring on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain tranquility I find in tinkering with my car — it's my own way of relaxiing and enjoying some quiet time.",
 };
 
 export const education = [
@@ -40,7 +40,7 @@ export const education = [
     },
     {
         id: 4,
-        year: "2018 - Heden",
+        year: "2018 - now",
         title: "Creative Media & Game Technologies",
         school: "Rotterdam University of Applied Sciences",
         description: "HBO",
