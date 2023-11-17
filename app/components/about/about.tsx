@@ -5,7 +5,7 @@ import AboutSkills from "./aboutSkills";
 
 const About = () => {
     return (
-        <div className="py-36 bg-base-100" id="about">
+        <div className="py-36" id="about">
             <div className="sm:container sm:mx-auto mx-4 ">
                 <div className="grid lg:grid-cols-2 lg:grid-rows-1 grid-rows-1 lg:gap-x-10">
                     <div className="relative hover:transform hover:scale-105 transition duration-100 ease-in-out group sm:row-span-2 my-auto">

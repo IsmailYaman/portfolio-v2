@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" data-theme="mytheme" className={`scroll-smooth ${quicksand.className}`}>
-            <body>
+            <body className="bg-base-100">
                 <Header />
                 {children}
                 <Analytics />
