@@ -40,7 +40,7 @@ export const education = [
     },
     {
         id: 4,
-        year: "2018 - Heden",
+        year: "2018 - now",
         title: "Creative Media & Game Technologies",
         school: "Rotterdam University of Applied Sciences",
         description: "HBO",
