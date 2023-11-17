@@ -17,7 +17,7 @@ const DropDownMenu = () => {
             </label>
             <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200/30 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100/50 text-white rounded-box w-52"
             >
                 {headerLinks.map((link) => (
                     <li key={link.target}>
