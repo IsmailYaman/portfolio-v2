@@ -14,7 +14,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
-        <div className="card hover:shadowxl hover:shadow-primary/50 group w-full h-full bg-base-100 hover:scale-105 mx-auto ease-out duration-100">
+        <div className="card hover:shadow-xl hover:shadow-primary/25 group w-full h-full bg-base-100 hover:scale-105 mx-auto ease-out duration-100">
             <figure>
                 <p className="absolute text-white font-bold opacity-0 transition-opacity group-hover:opacity-100">
                     Read more

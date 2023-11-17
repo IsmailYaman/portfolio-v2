@@ -15,19 +15,19 @@ const Education = () => {
         switch (item.id) {
             case 1:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-2 p-20 rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-2 p-20 hover:shadow-primary/25 shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 2:
                 gridClasses =
-                    "lg:row-span-2 lg:col-start-3 p-20 rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-2 lg:col-start-3 p-20 hover:shadow-primary/25 shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 3:
                 gridClasses =
-                    "lg:row-span-3 lg:row-start-3 p-20 rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-3 lg:row-start-3 p-20 hover:shadow-primary/25 shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 4:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 hover:shadow-primary/25 shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             default:
                 break;
@@ -55,7 +55,7 @@ const Education = () => {
                     I&#39;ve followed
                 </h1>
 
-                <div className="grid lg:grid-cols-3 lg:grid-rows-5 sm:grid-rows-4 sm:grid-cols-1 xs:grid-rows-4 xs:grid-cols-1 gap-4">
+                <div className="grid lg:grid-cols-3 lg:grid-rows-5 sm:grid-rows-4 sm:grid-cols-1 xs:grid-rows-4 xs:grid-cols-1 gap-8">
                     {education.map(renderEducationItem)}
                 </div>
             </div>
