@@ -287,7 +287,7 @@ export const experiences = {
         },
         {
             id: 9,
-            label: "Tailwind CSS",
+            label: "Tailwind",
             image: "/icons/tailwind.svg",
         },
         {
