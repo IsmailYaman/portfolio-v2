@@ -10,9 +10,9 @@ const About = () => {
                 <div className="grid lg:grid-cols-2 lg:grid-rows-1 grid-rows-1 lg:gap-x-10">
                     <div className="relative hover:transform hover:scale-105 transition duration-100 ease-in-out group sm:row-span-2 my-auto">
                         <Image
-                            src="/img/purple.png"
+                            src="/img/izzy-animated.png"
                             alt="Ismail"
-                            className="rounded-2xl mx-auto shadow-2xl shadow-primary/50 group-hover:shadow-primary ease-out duration-100 lg:mb-0 mb-16"
+                            className=" mask mask-squircle mx-auto shadow-2xl shadow-primary/50 group-hover:shadow-primary ease-out duration-100 lg:mb-0 mb-16"
                             width={500}
                             height={500}
                         />
@@ -27,9 +27,10 @@ const About = () => {
                     </div>
                     <div className="my-auto">
                         <h2 className="font-medium">
-                            I&#39;m a <AboutSkills /> {about.body1}
+                            I&#39;m a <AboutSkills /> 
                         </h2>
-                        <p className="text-justify mt-5">
+                        <h2 className="font-medium">{about.body1}</h2>
+                        <p className="text-justify mt-3">
                             {about.body2} <br /> <br /> {about.body3}
                         </p>
                     </div>

@@ -8,7 +8,7 @@ interface ExperiencePrompts {
 const ExperiencesCard: React.FC<ExperiencePrompts> = ({ label, image }) => {
     return (
         <>
-            <div className="card hover:shadow-xl hover:shadow-primary/25 bg-neutral text-neutral-content hover:scale-110 duration-100">
+            <div className="card border-2 active:scale-100 hover:border-2 hover:border-primary border-transparent hover:shadow-xl hover:shadow-primary/25 bg-neutral text-neutral-content hover:scale-105 duration-100">
                 <div className="card-body items-center text-center">
                     <Image src={image} width={100} height={100} alt={label} quality={100} />
                     <div className="card-actions justify-end">

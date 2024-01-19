@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Quicksand, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body className="bg-base-100">
                 <Header />
                 {children}
+                <SpeedInsights />
                 <Analytics />
                 <Footer />
             </body>
