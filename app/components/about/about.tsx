@@ -16,7 +16,7 @@ const About = () => {
                             width={500}
                             height={500}
                         />
-                
+
                         <div className="chat chat-start absolute w-80 right-0 top-5 hidden xs:block ">
                             <div className="chat-bubble w-full">
                                 <strong className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 text-transparent bg-clip-text font-black text-3xl">
@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                     <div className="my-auto">
                         <h2 className="font-medium">
-                            I&#39;m a <AboutSkills /> 
+                            I&#39;m a <AboutSkills />
                         </h2>
                         <h2 className="font-medium">{about.body1}</h2>
                         <p className="text-justify mt-3">

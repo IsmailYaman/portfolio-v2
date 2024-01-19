@@ -62,7 +62,6 @@ export const projects = [
             {
                 label: "Visit website (recommended for mobile)",
                 url: "https://cp-ar.vercel.app/",
-                code: `<a data-8code="39qav"></a><script src="//cdn.8thwall.com/web/share/embed8.js"></script>`,
             },
         ],
         tools: [
