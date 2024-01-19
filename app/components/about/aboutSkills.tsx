@@ -1,48 +1,44 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import { aboutSkills } from "../../data/data";
-import { Transition } from "@headlessui/react";
 
 const AboutSkills = () => {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
+  const [displayedText, setDisplayedText] = useState("");
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setVisible(false);
-      setTimeout(() => {
-        setCurrentSkillIndex((prevIndex) =>
-          (prevIndex + 1) % aboutSkills.length
-        );
-        setVisible(true);
-      }, 500); 
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, []);
+    if (deleting) {
+      // Deleting phase
+      if (displayedText.length > 0) {
+        setTimeout(() => {
+          setDisplayedText(displayedText.slice(0, -1));
+        }, 50); // Speed of "deleting"
+      } else {
+        setDeleting(false);
+        setCurrentSkillIndex((prevIndex) => (prevIndex + 1) % aboutSkills.length);
+      }
+    } else {
+      // Typing phase
+      if (displayedText.length < aboutSkills[currentSkillIndex].length) {
+        setTimeout(() => {
+          setDisplayedText(aboutSkills[currentSkillIndex].slice(0, displayedText.length + 1));
+        }, 100); // Speed of typing
+      } else {
+        setTimeout(() => {
+          setDeleting(true);
+        }, 2000); // Wait time before starting to delete
+      }
+    }
+  }, [displayedText, deleting, currentSkillIndex]);
 
   return (
-    <Transition
-      show={visible}
-      as={React.Fragment}
-      enter="transition-opacity ease-in-out duration-500"
-      enterFrom="opacity-0"
-      enterTo="opacity-100"
-      leave="transition-opacity ease-in-out duration-500"
-      leaveFrom="opacity-100"
-      leaveTo="opacity-0"
-    >
-      {(ref) => (
-        <span
-          className="bg-gradient-to-br from-blue-400 via-purple-700 to-pink-600 text-transparent bg-clip-text font-black text-5xl"
-          ref={ref}
-        >
-          {aboutSkills[currentSkillIndex]}
-        </span>
-      )}
-    </Transition>
+    <span className="bg-gradient-to-br from-blue-400 via-purple-700 to-pink-600 text-transparent bg-clip-text font-black text-5xl">
+      {displayedText}
+    </span>
   );
 };
 
 export default AboutSkills;
+
 

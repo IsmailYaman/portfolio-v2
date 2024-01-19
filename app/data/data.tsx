@@ -11,7 +11,7 @@ export const headerLinks = [
 export const about = {
     photo: "/img/ismail.jpg",
     title: "Hello! I'm Ismail.",
-    body1: "in his final year of study in Creative Media & Game Technologies in Rotterdam, the Netherlands.",
+    body1: "Based in Rotterdam, the Netherlands.",
     body2: "I have a real passion for crafting solutions that are not only functional but also visually attractive. My skill set is diverse, covering everything from frontend and backend development to game design. I'm dedicated to delivering digital experiences that go beyond what's expected.",
     body3: "When i'm not wokring on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain tranquility I find in tinkering with my car — it's my own way of relaxiing and enjoying some quiet time.",
 };
@@ -40,7 +40,7 @@ export const education = [
     },
     {
         id: 4,
-        year: "2018 - now",
+        year: "2018 - 2024",
         title: "Creative Media & Game Technologies",
         school: "Rotterdam University of Applied Sciences",
         description: "HBO",
@@ -50,6 +50,38 @@ export const education = [
 export const projects = [
     {
         id: 1,
+        title: "CP-AR",
+        description: [
+            {
+                body1: "CP-AR is a web-AR experience to make sure you know the basics of first aid actions for a heart attack emergency.",
+                body2: "CP-AR was my thesis project that I had the opportunity to develop for my studies in Creative Media & Game Technologies. Extensive research was done on the areas where improvements could be made within heart attack emergencies in the Netherlands.",
+            },
+        ],
+        image: "/img/purple.png",
+        links: [
+            {
+                label: "Visit website (recommended for mobile)",
+                url: "https://cp-ar.vercel.app/",
+                code: `<a data-8code="39qav"></a><script src="//cdn.8thwall.com/web/share/embed8.js"></script>`,
+            },
+        ],
+        tools: [
+            {
+                label: "A-Frame",
+                image: "https://img.icons8.com/color/48/000000/a-frame.png",
+            },
+            {
+                label: "8th Wall",
+                image: "https://img.icons8.com/color/48/000000/8th-wall.png",
+            },
+            {
+                label: "Blender",
+                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+            },
+        ],
+    },
+    {
+        id: 2,
         title: "Achromira",
         description: [
             {
@@ -84,7 +116,7 @@ export const projects = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: "Waar Bekken Ik?",
         description: [
             {
@@ -115,38 +147,8 @@ export const projects = [
         ],
     },
     {
-        id: 3,
-        title: "Akropolis",
-        description: [
-            {
-                body1: "This was a schoolproject where I had to find my own client to make a website for. At the time I worked at a Greek restaurant and the owner needed a new website. Now I could combine my school with work and learn new things in the process.",
-            },
-        ],
-        image: "/img/purple.png",
-        links: [
-            {
-                label: "Visit website",
-                url: "https://ismailkayadelen.com/akropolis/reserveringssysteem/",
-            },
-        ],
-        tools: [
-            {
-                label: "PHP",
-                image: "https://img.icons8.com/officel/48/000000/php-logo.png",
-            },
-            {
-                label: "MySQL",
-                image: "https://img.icons8.com/ios-filled/50/000000/mysql-logo.png",
-            },
-            {
-                label: "Bootstrap",
-                image: "https://img.icons8.com/color/48/000000/bootstrap.png",
-            },
-        ],
-    },
-    {
         id: 4,
-        title: "Unreal Engine 4 Shooter",
+        title: "Shooter Game",
         description: [
             {
                 body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4.",
