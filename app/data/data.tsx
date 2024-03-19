@@ -57,7 +57,7 @@ export const projects = [
                 body2: "CP-AR was my thesis project that I had the opportunity to develop for my studies in Creative Media & Game Technologies. Extensive research was done on the areas where improvements could be made within heart attack emergencies in the Netherlands.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_1.svg",
         links: [
             {
                 label: "Visit website (recommended for mobile)",
@@ -88,7 +88,7 @@ export const projects = [
                 body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_2.svg",
         links: [
             {
                 label: "Visit website",
@@ -123,7 +123,7 @@ export const projects = [
                 body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_3.svg",
         links: [
             {
                 label: "Read more",
@@ -153,7 +153,7 @@ export const projects = [
                 body1: "This was a schoolproject where I had to specialize in a certain program, language, IOT, etc. I chose to make a game with the Unreal Engine 4.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_7.svg",
         links: [
             {
                 label: "View demo ",
@@ -175,7 +175,7 @@ export const projects = [
                 body1: "The first asignment when I started at CMGT was to make a personal blog in which I could document all the tasks I've done.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_5.svg",
         links: [
             {
                 label: "Visit blog",
@@ -197,7 +197,7 @@ export const projects = [
                 body1: "SSI (Seksuele straatintimidatie) Rotterdam was a project for the municipality of Rotterdam aimed at raising awareness about sexual street harassment in busy areas of the city. It involved a VR experience that put users in the shoes of victims of street harassment. The goal was to foster empathy and initiate a dialogue about this issue, ultimately leading to increased awareness and positive change in society.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_6.svg",
         links: [
             {
                 label: "Read more",
@@ -219,7 +219,7 @@ export const projects = [
                 body1: "This was a schoolproject where I had to make a landingpage for a product that we had designed. The website was targeted towards parents that wanted an educational toy for their young kids. Hence the playful looks of the website.",
             },
         ],
-        image: "/img/purple.png",
+        image: "/img/project-cover/project_image_8.svg",
         links: [
             {
                 label: "Visit website",
