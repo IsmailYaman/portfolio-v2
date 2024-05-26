@@ -1,4 +1,4 @@
-export const aboutSkills = ["Frontend Developer", "Backend Developer", "Designer", "Game Developer", "3D Artist"];
+export const aboutSkills = ["Frontend Developer.", "Web designer.","3D Artist."];
 
 export const headerLinks = [
     { label: "About", target: "about" },
@@ -13,7 +13,7 @@ export const about = {
     title: "Hello! I'm Ismail.",
     body1: "Based in Rotterdam, the Netherlands.",
     body2: "I have a real passion for crafting solutions that are not only functional but also visually attractive. My skill set is diverse, covering everything from frontend and backend development to game design. I'm dedicated to delivering digital experiences that go beyond what's expected.",
-    body3: "When i'm not wokring on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain tranquility I find in tinkering with my car — it's my own way of relaxiing and enjoying some quiet time.",
+    body3: "When I'm not working on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain tranquility I find in tinkering with my car — it's my own way of relaxiing and enjoying some quiet time.",
 };
 
 export const education = [
