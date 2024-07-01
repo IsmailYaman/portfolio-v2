@@ -33,7 +33,7 @@ const AboutSkills = () => {
   }, [displayedText, deleting, currentSkillIndex]);
 
   return (
-    <span className="bg-gradient-to-br from-blue-400 via-purple-700 to-pink-600 text-transparent bg-clip-text font-black text-5xl">
+    <span className="bg-gradient-to-br from-blue-400 via-purple-700 to-pink-600 text-transparent bg-clip-text font-black text-4xl">
       {displayedText}
     </span>
   );

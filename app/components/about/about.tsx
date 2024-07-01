@@ -18,7 +18,7 @@ const About = () => {
                         />
                 
                         <div className="chat chat-start absolute w-80 right-0 top-5 hidden xs:block ">
-                            <div className="chat-bubble w-full">
+                            <div className="chat-bubble">
                                 <strong className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 text-transparent bg-clip-text font-black text-3xl">
                                     {about.title}
                                 </strong>
