@@ -40,7 +40,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 
                     <div className="lg:ml-5 lg:w-2/5 flex flex-col justify-between">
                         <div className="flex-grow">
-                            <h2>{project.title}</h2>
+                            <h2 className="leading-loose">{project.title}</h2>
                             {project.description.map((desc, index) => (
                                 <div key={index} className="mb-5">
                                     {desc.body1}

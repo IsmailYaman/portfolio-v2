@@ -13,8 +13,6 @@ const Banner = () => {
                         href="mailto:iso_yaman@outlook.com"
                         className="relative m-1 hover:shadow-2xl hover:shadow-primary hover:scale-110 duration-300  ease-in-out  active:outline-primary bg-gradient-to-br from-[#180042] via-[#2e017d] to-primary inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
                     >
-                        {/* <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
-                        <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span> */}
                         <span className="relative">Let&#39;s work together!</span>
                     </a>
                 </div>

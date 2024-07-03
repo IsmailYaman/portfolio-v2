@@ -25,9 +25,9 @@ const Projects = () => {
     return (
         <div className="pb-36 px-4" id="projects">
             <div className="sm:container sm:mx-auto">
-                <div className="relative inline-block mb-4">
+                <div className="relative inline-block">
                     <h2>
-                        <span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text md:text-4xl leading-loose font-black">
+                        <span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text text-4xl leading-loose font-black">
                             Projects
                         </span>{" "}
                         I&#39;ve worked on

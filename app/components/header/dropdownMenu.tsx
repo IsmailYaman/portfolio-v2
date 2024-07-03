@@ -3,7 +3,7 @@ import { headerLinks } from "../../data/data";
 
 const DropDownMenu = () => {
     return (
-        <div className="dropdown dropdown-end float-right">
+        <div className="dropdown dropdown-start float-right">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
