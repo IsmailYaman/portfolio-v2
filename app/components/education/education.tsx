@@ -15,19 +15,19 @@ const Education = () => {
         switch (item.id) {
             case 1:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-2 p-20 active:scale-100 hover:shadow-primary/25 text-white shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-2 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 2:
                 gridClasses =
-                    "lg:row-span-2 lg:col-start-3 p-20 active:scale-100 hover:shadow-primary/25 text-white shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-2 lg:col-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 3:
                 gridClasses =
-                    "lg:row-span-3 lg:row-start-3 p-20 active:scale-100 hover:shadow-primary/25 text-white shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-3 lg:row-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             case 4:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-3 active:scale-100 row-start-4 p-20 hover:shadow-primary/25 text-white shadow-xl hover:scale-105 duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
                 break;
             default:
                 break;
@@ -48,14 +48,14 @@ const Education = () => {
     return (
         <div className="pb-36 px-4" id="education">
             <div className="sm:container sm:mx-auto">
-                <h1>
-                    <span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text text-5xl leading-loose font-black">
+                <h2>
+                    <span className="relative z-10 bg-gradient-to-br from-pink-700 via-purple-700 to-blue-400 text-transparent h-full bg-clip-text text-4xl leading-loose font-black">
                         Studies
                     </span>{" "}
                     I&#39;ve followed
-                </h1>
+                </h2>
 
-                <div className="grid lg:grid-cols-3 lg:grid-rows-5 sm:grid-rows-4 sm:grid-cols-1 xs:grid-rows-4 xs:grid-cols-1 gap-8">
+                <div className="grid lg:grid-cols-3 lg:grid-rows-5 sm:grid-rows-4 sm:grid-cols-1 xs:grid-rows-4 xs:grid-cols-1 gap-4">
                     {education.map(renderEducationItem)}
                 </div>
             </div>

@@ -12,8 +12,8 @@ export const about = {
     photo: "/img/ismail.jpg",
     title: "Hello! I'm Ismail.",
     body1: "Based in Rotterdam, the Netherlands.",
-    body2: "I have a real passion for crafting solutions that are not only functional but also visually attractive. My skill set is diverse, covering everything from frontend and backend development to game design. I'm dedicated to delivering digital experiences that go beyond what's expected.",
-    body3: "When I'm not working on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain tranquility I find in tinkering with my car — it's my own way of relaxiing and enjoying some quiet time.",
+    body2: "I have a real passion for creating projects that are not only functional but also visually attractive. My skill set is diverse, covering everything from frontend development to designing.",
+    body3: "When I'm not working on projects, I'm likely to be found either at the gym or working on my car. Bodybuilding is more than just exercise for me; it's a way to stay fit and focused. And there's a certain enjoyment I find in tinkering with my car — it's my own way of relaxing and enjoying some quiet time.",
 };
 
 export const education = [
@@ -105,10 +105,10 @@ export const projects = [
                 label: "Blender",
                 image: "https://img.icons8.com/color/48/000000/blender-3d.png",
             },
-            {
-                label: "Photoshop",
-                image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
-            },
+            // {
+            //     label: "Photoshop",
+            //     image: "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png",
+            // },
             {
                 label: "Illustrator",
                 image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
@@ -246,22 +246,22 @@ export const projects = [
 
 export const experiences = {
     programming: [
-        {
-            id: 1,
-            label: "HTML5",
-            image: "/icons/html.svg",
-            svg: "",
-        },
-        {
-            id: 2,
-            label: "CSS3",
-            image: "/icons/css.svg",
-        },
-        {
-            id: 3,
-            label: "JavaScript",
-            image: "/icons/javascript.svg",
-        },
+        // {
+        //     id: 1,
+        //     label: "HTML5",
+        //     image: "/icons/html.svg",
+        //     svg: "",
+        // },
+        // {
+        //     id: 2,
+        //     label: "CSS3",
+        //     image: "/icons/css.svg",
+        // },
+        // {
+        //     id: 3,
+        //     label: "JavaScript",
+        //     image: "/icons/javascript.svg",
+        // },
         {
             id: 4,
             label: "TypeScript",
@@ -313,18 +313,18 @@ export const experiences = {
             image: "/icons/next.svg",
         },
     ],
-    ecommerce: [
-        {
-            id: 1,
-            label: "Shopify",
-            image: "/icons/shopify.svg",
-        },
-        {
-            id: 2,
-            label: "Magento",
-            image: "/icons/magento.svg",
-        },
-    ],
+    // ecommerce: [
+    //     {
+    //         id: 1,
+    //         label: "Shopify",
+    //         image: "/icons/shopify.svg",
+    //     },
+    //     {
+    //         id: 2,
+    //         label: "Magento",
+    //         image: "/icons/magento.svg",
+    //     },
+    // ],
     design: [
         {
             id: 1,
@@ -357,18 +357,18 @@ export const experiences = {
             image: "/icons/figma.svg",
         },
     ],
-    gameDevelopment: [
-        {
-            id: 1,
-            label: "Unity",
-            image: "/icons/unity.svg",
-        },
-        {
-            id: 2,
-            label: "Unreal Engine",
-            image: "/icons/ue4.svg",
-        },
-    ],
+    // gameDevelopment: [
+    //     {
+    //         id: 1,
+    //         label: "Unity",
+    //         image: "/icons/unity.svg",
+    //     },
+    //     {
+    //         id: 2,
+    //         label: "Unreal Engine",
+    //         image: "/icons/ue4.svg",
+    //     },
+    // ],
     other: [
         {
             id: 1,
@@ -394,6 +394,16 @@ export const experiences = {
             id: 5,
             label: "Blender",
             image: "/icons/blender.svg",
+        },
+        {
+            id: 6,
+            label: "Unity",
+            image: "/icons/unity.svg",
+        },
+        {
+            id: 7,
+            label: "Unreal Engine",
+            image: "/icons/ue4.svg",
         },
     ],
 };

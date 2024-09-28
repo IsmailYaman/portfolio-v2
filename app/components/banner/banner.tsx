@@ -1,53 +1,42 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Banner = () => {
-    const [isAnimated, setIsAnimated] = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const animationTimer = setTimeout(() => {
-            setIsAnimated(true);
-        }, 800);
-
-        const visibilityTimer = setTimeout(() => {
-            setIsVisible(true);
-        }, 2000);
-
-        return () => {
-            clearTimeout(animationTimer);
-            clearTimeout(visibilityTimer);
-        };
-    }, []);
-
-    const slidingImage = `transition-all ${isAnimated ? "w-1/2" : "w-full"} ${
-        isAnimated ? "translate-x-3/5" : "translate-x-0"
-    }`;
-
-    return (
-        <div className="bg-primary flex">
-            <div className={`h-screen ${slidingImage} bg-no-repeat bg-cover bg-center duration-1000 bg-[url('/img/purple.png')]`}></div>
-            <div
-                className={`max-w-2/5 flex flex-col items-center justify-center h-screen mx-auto bg-center  ${
-                    isAnimated && isVisible ? "" : "hidden"
-                }`}
-            >
-                <h1 className="text-4xl font-bold animate-fade-down animate-duration-500 animate-delay-3000 animate-ease-out">Ismail Kayadelen</h1>
-                <h2 className="font-light">Web Development & Web Design</h2>
-                <a href="#_" className="relative bg-primary my-4 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                    <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
-                    <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
-                    <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
-                    <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
-                    <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
-                    <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
-                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                    <span className="relative">Let&#39;s work together!</span>
-                </a>
-            </div>
-        </div>
-    );
+	return (
+		<div className="h-screen relative">
+			<Image
+				src="/img/ccchaos4.svg"
+				width={5000}
+				height={5000}
+				className="max-h-screen object-cover h-screen absolute"
+				alt="background"
+			/>
+			<div className="md:w-1/2 sm:w-full right-0 flex h-screen absolute justify-center flex-col">
+				<div className="mx-auto px-8">
+					<h1 className=" font-bold mb-4">Ismail Kayadelen</h1>
+					<h2 className="font-light text-3xl mb-4">Development & Design</h2>
+					<a href="mailto:iso_yaman@outlook.com" className="btn btn-primary hover:ring-4 ease-in-out hover:ring-primary hover:shadow-lg hover:shadow-primary">
+						<span className="relative">Let&#39;s work together!</span>
+					</a>
+				</div>
+			</div>
+			<div className="absolute inset-x-0 bottom-12 flex items-center justify-center z-40">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					strokeWidth={1.5}
+					stroke="currentColor"
+					className="w-6 h-6 motion-safe:animate-bounce"
+				>
+					<path
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
+					/>
+				</svg>
+			</div>
+		</div>
+	);
 };
 
 export default Banner;

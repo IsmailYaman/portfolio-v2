@@ -3,54 +3,84 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
+
 @layer base {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-weight: bold;
-        color: #ffffff;
-    }
-    h1 {
-        font-size: 2.5rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.75rem;
-    }
+  body {
+    @apply text-base;
+    color: #fff
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-    }
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
+@keyframes borderAnimation {
+    0%, 100% { border-color: #d946ef; }
+    33% { border-color: #ec4899; }
+    66% { border-color: #14b8a6; }
+  }
+  
+  @keyframes glowAnimation {
+    0%, 100% { box-shadow: 0 0 15px 2px #d946ef; }
+    33% { box-shadow: 0 0 15px 2px #ec4899; }
+    66% { box-shadow: 0 0 15px 2px #14b8a6; }
+  }
+  
+  @keyframes glowHoverAnimation {
+    0%, 100% { box-shadow: 0 0 30px 4px #d946ef; }
+    33% { box-shadow: 0 0 30px 4px #ec4899; }
+    66% { box-shadow: 0 0 30px 4px #14b8a6; }
+  }
+  
+  /* Custom Tailwind Classes */
+  .animated-border {
+    animation: borderAnimation 3s linear infinite;
+  }
+  
+  .glow-animated {
+    animation: glowAnimation 3s linear infinite;
+  }
+  
+  .glow-hover:hover {
+    animation: glowHoverAnimation 3s linear infinite;
+  }
+  
 /* Scrollbar styling */
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2c173c;
-    border-radius: 5px;
+  background: #2c173c;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #121212;
-    border-radius: 5px;
+  background: #121212;
+  border-radius: 5px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background: #753D9F; 
+  background: #753D9F; 
 }
