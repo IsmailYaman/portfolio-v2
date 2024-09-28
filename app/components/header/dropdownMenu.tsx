@@ -3,7 +3,7 @@ import { headerLinks } from "../../data/data";
 
 const DropDownMenu = () => {
     return (
-        <div className="dropdown dropdown-start float-right">
+        <div className="dropdown dropdown-start float-left">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -17,13 +17,13 @@ const DropDownMenu = () => {
             </label>
             <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100/50 text-white rounded-box w-52"
+                className="menu menu-lg dropdown-content mt-3 z-[1] p-2 text-white rounded-box w-52  backdrop-blur-lg  bg-black/40"
             >
                 {headerLinks.map((link) => (
                     <li key={link.target}>
                         <a
                             href={`#${link.target}`}
-                            className="hover:bg-primary/50 hover:text-white active:!bg-primary active:!text-white focus:!text-white focus:!bg-primary/75 "
+                            className="hover:bg-primary/50 hover:text-white"
                         >
                             {link.label}
                         </a>

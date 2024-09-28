@@ -35,6 +35,37 @@
   }
 }
 
+@keyframes borderAnimation {
+    0%, 100% { border-color: #d946ef; }
+    33% { border-color: #ec4899; }
+    66% { border-color: #14b8a6; }
+  }
+  
+  @keyframes glowAnimation {
+    0%, 100% { box-shadow: 0 0 15px 2px #d946ef; }
+    33% { box-shadow: 0 0 15px 2px #ec4899; }
+    66% { box-shadow: 0 0 15px 2px #14b8a6; }
+  }
+  
+  @keyframes glowHoverAnimation {
+    0%, 100% { box-shadow: 0 0 30px 4px #d946ef; }
+    33% { box-shadow: 0 0 30px 4px #ec4899; }
+    66% { box-shadow: 0 0 30px 4px #14b8a6; }
+  }
+  
+  /* Custom Tailwind Classes */
+  .animated-border {
+    animation: borderAnimation 3s linear infinite;
+  }
+  
+  .glow-animated {
+    animation: glowAnimation 3s linear infinite;
+  }
+  
+  .glow-hover:hover {
+    animation: glowHoverAnimation 3s linear infinite;
+  }
+  
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 10px;
