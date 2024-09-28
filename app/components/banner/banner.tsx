@@ -12,7 +12,7 @@ const Banner = () => {
 			/>
 			<div className="md:w-1/2 sm:w-full right-0 flex h-screen absolute justify-center flex-col">
 				<div className="mx-auto px-8">
-					<h1 className=" font-bold mb-4">Ismail Kayadelen</h1>
+					<h1 className=" font-bold mb-4 leading-9">Ismail Kayadelen</h1>
 					<h2 className="font-light text-3xl mb-4">Development & Design</h2>
 					<a href="mailto:iso_yaman@outlook.com" className="btn btn-primary hover:ring-4 ease-in-out hover:ring-primary hover:shadow-lg hover:shadow-primary">
 						<span className="relative">Let&#39;s work together!</span>
