@@ -15,19 +15,19 @@ const Education = () => {
         switch (item.id) {
             case 1:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-2 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-2 p-20 hover:shadow-primary/25 text-white shadow-xl duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-br bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full hover:border-2 border-primary";
                 break;
             case 2:
                 gridClasses =
-                    "lg:row-span-2 lg:col-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-2 lg:col-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-bl from-[#180042] bg-gradient-to-tr via-[#2e017d] to-purple-900 flex flex-col justify-center h-full hover:border-2 border-primary";
                 break;
             case 3:
                 gridClasses =
-                    "lg:row-span-3 lg:row-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:row-span-3 lg:row-start-3 p-20 hover:shadow-primary/25 text-white shadow-xl duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tr bg-gradient-to-br from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full hover:border-2 border-primary";
                 break;
             case 4:
                 gridClasses =
-                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 hover:shadow-primary/25 text-white shadow-xl duration-300 ease-in-out rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full";
+                    "lg:col-span-2 lg:row-span-3 row-start-4 p-20 hover:shadow-primary/25 text-white shadow-xl duration-100 ease-in-out rounded-2xl lg:bg-gradient-to-tl bg-gradient-to-tr from-[#180042] via-[#2e017d] to-purple-900 flex flex-col justify-center h-full hover:border-2 border-primary";
                 break;
             default:
                 break;
