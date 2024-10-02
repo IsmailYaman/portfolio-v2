@@ -48,65 +48,65 @@ export const education = [
 ];
 
 export const projects = [
-    {
-        id: 1,
-        title: "Porta Da Vida",
-        description: [
-            {
-                body1: "Porta Da Vida is a nursing home located in Holtum - the Netherlands. They provide two services: daytime activities for seniors and an atelier for young dementia patients.",
-                body2: "The client wanted a split-design for the homepage that would make it easy for users to find the information they need.",
-            },
-        ],
-        image: "/projects/portadavida.png",
-        links: [
-            {
-                label: "Visit website",
-                url: "https:/portadavida.nl/",
-            },
-        ],
-        tools: [
-            {
-                label: "Framer",
-                image: "https://img.icons8.com/color/48/000000/framer.png",
-            },
+    // {
+    //     id: 1,
+    //     title: "Porta Da Vida",
+    //     description: [
+    //         {
+    //             body1: "Porta Da Vida is a nursing home located in Holtum - the Netherlands. They provide two services: daytime activities for seniors and an atelier for young dementia patients.",
+    //             body2: "The client wanted a split-design for the homepage that would make it easy for users to find the information they need.",
+    //         },
+    //     ],
+    //     image: "/projects/portadavida.png",
+    //     links: [
+    //         {
+    //             label: "Visit website",
+    //             url: "https:/portadavida.nl/",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "Framer",
+    //             image: "https://img.icons8.com/color/48/000000/framer.png",
+    //         },
 
-        ],
-    },
-    {
-        id: 2,
-        title: "Fashioncheque - Shopfinder",
-        description: [
-            {
-                body1: "This client wanted a integration in their website that would make it easy for users to find the nearest store that accepts Fashioncheque. ",
-                body2: "Their previous solution was outdated and did not meet the requirements of the current time. ",
-            },
-        ],
-        image: "/projects/shopfinder.png",
-        links: [
-            {
-                label: "Visit website",
-                url: "https://www.fashioncheque.com/nl-nl/shopfinder",
-            },
-        ],
-        tools: [
-            {
-                label: "React",
-                image: "https://img.icons8.com/color/48/000000/a-frame.png",
-            },
-            {
-                label: "Typescript",
-                image: "https://img.icons8.com/color/48/000000/8th-wall.png",
-            },
-            {
-                label: "Storybook",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
-            },
-            {
-                label: "Tailwind",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
-            },
-        ],
-    },
+    //     ],
+    // },
+    // {
+    //     id: 2,
+    //     title: "Fashioncheque - Shopfinder",
+    //     description: [
+    //         {
+    //             body1: "This client wanted a integration in their website that would make it easy for users to find the nearest store that accepts Fashioncheque. ",
+    //             body2: "Their previous solution was outdated and did not meet the requirements of the current time. ",
+    //         },
+    //     ],
+    //     image: "/projects/shopfinder.png",
+    //     links: [
+    //         {
+    //             label: "Visit website",
+    //             url: "https://www.fashioncheque.com/nl-nl/shopfinder",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "React",
+    //             image: "https://img.icons8.com/color/48/000000/a-frame.png",
+    //         },
+    //         {
+    //             label: "Typescript",
+    //             image: "https://img.icons8.com/color/48/000000/8th-wall.png",
+    //         },
+    //         {
+    //             label: "Storybook",
+    //             image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+    //         },
+    //         {
+    //             label: "Tailwind",
+    //             image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+    //         },
+    //     ],
+    // },
     {
         id: 3,
         title: "CP-AR",
@@ -197,51 +197,51 @@ export const projects = [
             },
         ],
     },
-    {
-        id: 6,
-        title: "VIUW makelaars",
-        description: [
-            {
-                body1:"This client wanted a sleek and modern website that would make it easy for users to find the information they need. I've created this website that is easy to navigate and has a clean design. The website is fully responsive and works on all devices.",
-                body2: "They specialze in taxations, sales and purchases of homes in the Netherlands.",
-            },
-        ],
-        image: "/projects/viuw.png",
-        links: [
-            {
-                label: "Visit website",
-                url: "hhttps://www.viuwmakelaars.nl/",
-            },
-        ],
-        tools: [
-            {
-                label: "Framer",
-                image: "https://img.icons8.com/color/48/000000/react-native.png",
-            }
-        ],
-    },
-    {
-        id: 7,
-        title: "Raamdesign Discounter ",
-        description: [
-            {
-                body1: "This client specializes in custom pleated curtains. They wanted a shopify webshop with a modern, easy to navigate and has a clean design with an epmhasis on a yellow/gold and black/gray design. ",
-            },
-        ],
-        image: "/projects/raamdesign.png",
-        links: [
-            {
-                label: "Visit webshop",
-                url: "https://raamdesigndiscounter.nl/",
-            },
-        ],
-        tools: [
-            {
-                label: "Shopify",
-                image: "https://img.icons8.com/color/48/000000/react-native.png",
-            },
-        ],
-    },
+    // {
+    //     id: 6,
+    //     title: "VIUW makelaars",
+    //     description: [
+    //         {
+    //             body1:"This client wanted a sleek and modern website that would make it easy for users to find the information they need. I've created this website that is easy to navigate and has a clean design. The website is fully responsive and works on all devices.",
+    //             body2: "They specialze in taxations, sales and purchases of homes in the Netherlands.",
+    //         },
+    //     ],
+    //     image: "/projects/viuw.png",
+    //     links: [
+    //         {
+    //             label: "Visit website",
+    //             url: "hhttps://www.viuwmakelaars.nl/",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "Framer",
+    //             image: "https://img.icons8.com/color/48/000000/react-native.png",
+    //         }
+    //     ],
+    // },
+    // {
+    //     id: 7,
+    //     title: "Raamdesign Discounter ",
+    //     description: [
+    //         {
+    //             body1: "This client specializes in custom pleated curtains. They wanted a shopify webshop with a modern, easy to navigate and has a clean design with an epmhasis on a yellow/gold and black/gray design. ",
+    //         },
+    //     ],
+    //     image: "/projects/raamdesign.png",
+    //     links: [
+    //         {
+    //             label: "Visit webshop",
+    //             url: "https://raamdesigndiscounter.nl/",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "Shopify",
+    //             image: "https://img.icons8.com/color/48/000000/react-native.png",
+    //         },
+    //     ],
+    // },
 ];
 
 export const experiences = {
