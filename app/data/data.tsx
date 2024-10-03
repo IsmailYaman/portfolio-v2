@@ -92,7 +92,7 @@ export const projects = [
         image: "/projects/achromira.png",
         links: [
             {
-                label: "Visit website",
+                label: "Play game",
                 url: "https://store.steampowered.com/app/1809760/Achromira/",
             },
         ],
