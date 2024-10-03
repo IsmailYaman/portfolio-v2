@@ -48,6 +48,96 @@ export const education = [
 ];
 
 export const projects = [
+    {
+        id: 1,
+        title: "CP-AR",
+        description: [
+            {
+                body1: "CP-AR is a web-AR experience to make sure you know the basics of first aid actions for a heart attack emergency.",
+                body2: "CP-AR was my thesis project that I had the opportunity to develop for my studies in Creative Media & Game Technologies. Extensive research was done on the areas where improvements could be made within heart attack emergencies in the Netherlands.",
+            },
+        ],
+        image: "/projects/cp-ar.png",
+        links: [
+            {
+                label: "Visit website (recommended for mobile)",
+                url: "https://cp-ar.vercel.app/",
+                code: `<a data-8code="39qav"></a><script src="//cdn.8thwall.com/web/share/embed8.js"></script>`,
+            },
+        ],
+        tools: [
+            {
+                label: "A-Frame",
+                image: "https://img.icons8.com/color/48/000000/a-frame.png",
+            },
+            {
+                label: "8th Wall",
+                image: "https://img.icons8.com/color/48/000000/8th-wall.png",
+            },
+            {
+                label: "Blender",
+                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+            },
+        ],
+    },
+    {
+        id: 2,
+        title: "Achromira",
+        description: [
+            {
+                body1: "Achromira is a story rich platformer where Mira, the character you play as, has to search for all the crystal shards in order to restore colour to her own world and that of others. Follow her on her journey to rescue three unique worlds, Achrome City, Rutate and Gryd.",
+                body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
+            },
+        ],
+        image: "/projects/achromira.png",
+        links: [
+            {
+                label: "Visit website",
+                url: "https://store.steampowered.com/app/1809760/Achromira/",
+            },
+        ],
+        tools: [
+            {
+                label: "Unity",
+                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
+            },
+            {
+                label: "Blender",
+                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+            },
+            {
+                label: "Illustrator",
+                image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "Waar Bekken Ik?",
+        description: [
+            {
+                body1: "This was another schoolproject where I and my team had to solve a problem that medical students at the Erasmus University were facing. The pelvis is one of the few parts of the human body that is very difficult for students to understand only from books. We made a 3D visualization that makes the pelvis clear to students by showing it from different perspectives.",
+                body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
+            },
+        ],
+        image: "/projects/waarbekkenik.png",
+        links: [
+            {
+                label: "Read more",
+                url: "https://cmgt.hr.nl/projecten/waar-bekken-ik",
+            },
+        ],
+        tools: [
+            {
+                label: "Unity",
+                image: "https://img.icons8.com/color/48/000000/react-native.png",
+            },
+            {
+                label: "React",
+                image: "https://img.icons8.com/color/48/000000/react-native.png",
+            },
+        ],
+    },
     // {
     //     id: 1,
     //     title: "Porta Da Vida",
@@ -107,96 +197,96 @@ export const projects = [
     //         },
     //     ],
     // },
-    {
-        id: 3,
-        title: "CP-AR",
-        description: [
-            {
-                body1: "CP-AR is a web-AR experience to make sure you know the basics of first aid actions for a heart attack emergency.",
-                body2: "CP-AR was my thesis project that I had the opportunity to develop for my studies in Creative Media & Game Technologies. Extensive research was done on the areas where improvements could be made within heart attack emergencies in the Netherlands.",
-            },
-        ],
-        image: "/projects/cp-ar.png",
-        links: [
-            {
-                label: "Visit website (recommended for mobile)",
-                url: "https://cp-ar.vercel.app/",
-                code: `<a data-8code="39qav"></a><script src="//cdn.8thwall.com/web/share/embed8.js"></script>`,
-            },
-        ],
-        tools: [
-            {
-                label: "A-Frame",
-                image: "https://img.icons8.com/color/48/000000/a-frame.png",
-            },
-            {
-                label: "8th Wall",
-                image: "https://img.icons8.com/color/48/000000/8th-wall.png",
-            },
-            {
-                label: "Blender",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
-            },
-        ],
-    },
-    {
-        id: 4,
-        title: "Achromira",
-        description: [
-            {
-                body1: "Achromira is a story rich platformer where Mira, the character you play as, has to search for all the crystal shards in order to restore colour to her own world and that of others. Follow her on her journey to rescue three unique worlds, Achrome City, Rutate and Gryd.",
-                body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
-            },
-        ],
-        image: "/projects/achromira.png",
-        links: [
-            {
-                label: "Visit website",
-                url: "https://store.steampowered.com/app/1809760/Achromira/",
-            },
-        ],
-        tools: [
-            {
-                label: "Unity",
-                image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
-            },
-            {
-                label: "Blender",
-                image: "https://img.icons8.com/color/48/000000/blender-3d.png",
-            },
-            {
-                label: "Illustrator",
-                image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
-            },
-        ],
-    },
-    {
-        id: 5,
-        title: "Waar Bekken Ik?",
-        description: [
-            {
-                body1: "This was another schoolproject where I and my team had to solve a problem that medical students at the Erasmus University were facing. The pelvis is one of the few parts of the human body that is very difficult for students to understand only from books. We made a 3D visualization that makes the pelvis clear to students by showing it from different perspectives.",
-                body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
-            },
-        ],
-        image: "/projects/waarbekkenik.png",
-        links: [
-            {
-                label: "Read more",
-                url: "https://cmgt.hr.nl/projecten/waar-bekken-ik",
-            },
-        ],
-        tools: [
-            {
-                label: "Unity",
-                image: "https://img.icons8.com/color/48/000000/react-native.png",
-            },
-            {
-                label: "React",
-                image: "https://img.icons8.com/color/48/000000/react-native.png",
-            },
-        ],
-    },
+    // {
+    //     id: 3,
+    //     title: "CP-AR",
+    //     description: [
+    //         {
+    //             body1: "CP-AR is a web-AR experience to make sure you know the basics of first aid actions for a heart attack emergency.",
+    //             body2: "CP-AR was my thesis project that I had the opportunity to develop for my studies in Creative Media & Game Technologies. Extensive research was done on the areas where improvements could be made within heart attack emergencies in the Netherlands.",
+    //         },
+    //     ],
+    //     image: "/projects/cp-ar.png",
+    //     links: [
+    //         {
+    //             label: "Visit website (recommended for mobile)",
+    //             url: "https://cp-ar.vercel.app/",
+    //             code: `<a data-8code="39qav"></a><script src="//cdn.8thwall.com/web/share/embed8.js"></script>`,
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "A-Frame",
+    //             image: "https://img.icons8.com/color/48/000000/a-frame.png",
+    //         },
+    //         {
+    //             label: "8th Wall",
+    //             image: "https://img.icons8.com/color/48/000000/8th-wall.png",
+    //         },
+    //         {
+    //             label: "Blender",
+    //             image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+    //         },
+    //     ],
+    // },
+    // {
+    //     id: 4,
+    //     title: "Achromira",
+    //     description: [
+    //         {
+    //             body1: "Achromira is a story rich platformer where Mira, the character you play as, has to search for all the crystal shards in order to restore colour to her own world and that of others. Follow her on her journey to rescue three unique worlds, Achrome City, Rutate and Gryd.",
+    //             body2: "This was the second project with the game development minor. As an artist within the team, I've worked mainly on the first level of the game. Almost all the assets in this level are done by me. Next to that I've also worked on various assets in other levels.",
+    //         },
+    //     ],
+    //     image: "/projects/achromira.png",
+    //     links: [
+    //         {
+    //             label: "Visit website",
+    //             url: "https://store.steampowered.com/app/1809760/Achromira/",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "Unity",
+    //             image: "https://img.icons8.com/ios-filled/50/000000/unity.png",
+    //         },
+    //         {
+    //             label: "Blender",
+    //             image: "https://img.icons8.com/color/48/000000/blender-3d.png",
+    //         },
+    //         {
+    //             label: "Illustrator",
+    //             image: "https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png",
+    //         },
+    //     ],
+    // },
+    // {
+    //     id: 5,
+    //     title: "Waar Bekken Ik?",
+    //     description: [
+    //         {
+    //             body1: "This was another schoolproject where I and my team had to solve a problem that medical students at the Erasmus University were facing. The pelvis is one of the few parts of the human body that is very difficult for students to understand only from books. We made a 3D visualization that makes the pelvis clear to students by showing it from different perspectives.",
+    //             body2: "This was a long project that lasted six months. During that time, we worked with the scrum and agile principles. In addition, the special thing about this project is that it is a long-term project. Hopefully next year's CMGT students will continue with it.",
+    //         },
+    //     ],
+    //     image: "/projects/waarbekkenik.png",
+    //     links: [
+    //         {
+    //             label: "Read more",
+    //             url: "https://cmgt.hr.nl/projecten/waar-bekken-ik",
+    //         },
+    //     ],
+    //     tools: [
+    //         {
+    //             label: "Unity",
+    //             image: "https://img.icons8.com/color/48/000000/react-native.png",
+    //         },
+    //         {
+    //             label: "React",
+    //             image: "https://img.icons8.com/color/48/000000/react-native.png",
+    //         },
+    //     ],
+    // },
     // {
     //     id: 6,
     //     title: "VIUW makelaars",
